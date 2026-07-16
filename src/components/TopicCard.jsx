@@ -1,4 +1,4 @@
-function TopicCard({ title, completed, onClick }) {
+function TopicCard({ title, locked, onClick }) {
   return (
     <button
       className={`topic-card ${completed ? "completed" : ""}`}
