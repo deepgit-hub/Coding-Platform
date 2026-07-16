@@ -1,12 +1,12 @@
 function TopicCard({ title, locked, onClick }) {
   return (
     <button
-      className={`topic-card ${locked ? "completed" : ""}`}
+      className={`topic-card ${completed ? "completed" : ""}`}
       onClick={onClick}
     >
       {title}
 
-      {completed ? " ✅" : " 🔒"}
+      {locked ? "🔒" : "▶️"}
     </button>
   );
 }
