@@ -1,7 +1,7 @@
 function TopicCard({ title, locked, onClick }) {
   return (
     <button
-      className={`topic-card ${completed ? "completed" : ""}`}
+      className={`topic-card ${locked ? "completed" : ""}`}
       onClick={onClick}
     >
       {title}
