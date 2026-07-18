@@ -18,9 +18,9 @@ const topics = [
   {
     id: 2,
     title: "Variables",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
+    englishDefinition: "A variable is a named memory location used to store data. The value stored in a variable can change during the execution of a program.",
+    tamilDefinition: "Variable என்பது தரவுகளை (Data) சேமித்து வைக்கப் பயன்படும் ஒரு பெயரிடப்பட்ட நினைவக இடமாகும். ஒரு Program இயங்கும் போது அதில் சேமிக்கப்பட்டுள்ள மதிப்பு (Value) தேவைக்கேற்ப மாற்றப்படலாம்.",
+    realWorldUsage: "Developers use variables to store information such as a user's name, account balance, shopping cart total, marks, or login status while building applications.",
     locked: true,
     completed: false,
   },
