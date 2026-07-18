@@ -252,7 +252,7 @@ const topics = [
     completed: false,
   },
   {
-    id: 32,
+    id: 29,
     title: "Exception Handling",
     englishDefinition: "",
     tamilDefinition: "",
