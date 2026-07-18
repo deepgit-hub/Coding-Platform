@@ -261,7 +261,7 @@ const topics = [
     completed: false,
   },
   {
-    id: 33,
+    id: 30,
     title: "Try Catch",
     englishDefinition: "",
     tamilDefinition: "",
