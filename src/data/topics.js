@@ -1,13 +1,20 @@
 const topics = [
-  {
-    id: 1,
-    title: "Introduction to Programming",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: false,
-    completed: false,
-  },
+ {
+  id: 1,
+  title: "Introduction to Programming",
+
+  englishDefinition:
+    "Programming is the process of giving instructions to a computer so that it can perform specific tasks. These instructions are written in a programming language such as Java, Python, or C++. Programs are used to solve problems, automate tasks, and build applications like websites, mobile apps, and games.",
+
+  tamilDefinition:
+    "Programming என்பது கணினிக்கு குறிப்பிட்ட வேலைகளைச் செய்ய வழிமுறைகளை (Instructions) கொடுக்கும் செயல்முறையாகும். இந்த வழிமுறைகள் Java, Python, C++ போன்ற Programming Language-களை பயன்படுத்தி எழுதப்படுகின்றன. Programming மூலம் Website, Mobile App, Game, Banking Software போன்ற பல பயன்பாடுகளை உருவாக்கலாம்.",
+
+  realWorldUsage:
+    "Programming is used in almost every industry. Examples include online banking applications, e-commerce websites like Amazon, social media platforms, hospital management systems, ATM software, food delivery apps, and mobile games.",
+
+  locked: false,
+  completed: false,
+},
   {
     id: 2,
     title: "Variables",
