@@ -168,24 +168,6 @@ const topics = [
     completed: false,
   },
   {
-    id: 29,
-    title: "Polymorphism",
-    locked: true,
-    completed: false,
-  },
-  {
-    id: 30,
-    title: "Abstraction",
-    locked: true,
-    completed: false,
-  },
-  {
-    id: 31,
-    title: "Interface",
-    locked: true,
-    completed: false,
-  },
-  {
     id: 32,
     title: "Exception Handling",
     locked: true,
@@ -206,12 +188,6 @@ const topics = [
   {
     id: 35,
     title: "Throw",
-    locked: true,
-    completed: false,
-  },
-  {
-    id: 36,
-    title: "Throws",
     locked: true,
     completed: false,
   },
