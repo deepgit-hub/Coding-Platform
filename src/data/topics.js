@@ -1,18 +1,68 @@
 const topics = [
  {
   id: 1,
+
   title: "Introduction to Programming",
 
   englishDefinition:
-    "Programming is the process of giving instructions to a computer so that it can perform specific tasks. These instructions are written in a programming language such as Java, Python, or C++. Programs are used to solve problems, automate tasks, and build applications like websites, mobile apps, and games.",
+    "Programming is the process of writing instructions that tell a computer how to perform specific tasks. These instructions are written using programming languages like Java, Python, and C++.",
 
   tamilDefinition:
-    "Programming என்பது கணினிக்கு குறிப்பிட்ட வேலைகளைச் செய்ய வழிமுறைகளை (Instructions) கொடுக்கும் செயல்முறையாகும். இந்த வழிமுறைகள் Java, Python, C++ போன்ற Programming Language-களை பயன்படுத்தி எழுதப்படுகின்றன. Programming மூலம் Website, Mobile App, Game, Banking Software போன்ற பல பயன்பாடுகளை உருவாக்கலாம்.",
+    "Programming என்பது கணினிக்கு குறிப்பிட்ட வேலைகளைச் செய்ய வழிமுறைகளை (Instructions) எழுதும் செயல்முறையாகும். இந்த வழிமுறைகள் Java, Python, C++ போன்ற Programming Language-களை பயன்படுத்தி எழுதப்படுகின்றன.",
 
   realWorldUsage:
-    "Programming is used in almost every industry. Examples include online banking applications, e-commerce websites like Amazon, social media platforms, hospital management systems, ATM software, food delivery apps, and mobile games.",
+    "Developers use programming to build websites, mobile applications, games, banking software, hospital management systems, and many other software applications.",
+
+  syntax: `public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello, World!");
+
+    }
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "public class Main → Creates a class named Main.",
+    "public static void main(String[] args) → This is the main method where Java starts executing the program.",
+    'System.out.println("Hello, World!"); → Prints the text "Hello, World!" on the console.'
+  ],
+
+  syntaxExplanationTamil: [
+    "public class Main → Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "public static void main(String[] args) → Program இயங்கத் தொடங்கும் முக்கியமான Method இதுவாகும்.",
+    'System.out.println("Hello, World!"); → "Hello, World!" என்ற செய்தியை திரையில் காட்டுகிறது.'
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to Java!");
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: A class named Main is created.",
+    "Line 3: The main() method is the starting point of every Java program.",
+    'Line 5: The println() statement displays "Welcome to Java!" on the console.',
+    "When this program runs, the output will be displayed on the screen."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    'வரி 5: println() மூலம் "Welcome to Java!" என்ற செய்தி திரையில் காட்டப்படுகிறது.',
+    "Program இயங்கிய பிறகு இந்த வெளியீடு (Output) Console-ல் காணப்படும்."
+  ],
+
+  output: `Welcome to Java!`,
 
   locked: false,
+
   completed: false,
 },
   {
