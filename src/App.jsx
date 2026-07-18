@@ -1,5 +1,9 @@
 function App() {
-  return <h1>Hello Deepak 🚀</h1>;
+  return (
+    <div style={{ color: "red", fontSize: "50px" }}>
+      Hello Deepak 🚀
+    </div>
+  );
 }
 
 export default App;
