@@ -279,7 +279,7 @@ const topics = [
     completed: false,
   },
   {
-    id: 35,
+    id: 32,
     title: "Throw",
     englishDefinition: "",
     tamilDefinition: "",
