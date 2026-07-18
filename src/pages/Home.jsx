@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import TopicCard from "../components/TopicCard";
 import topics from "../data/topics";
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <h1>Language : Java</h1>
@@ -13,7 +16,7 @@ function Home() {
           key={topic.id}
           title={topic.title}
           locked={topic.locked}
-          onClick={() => console.log(topic.title)}
+          onClick={() => navigate(`/topic/${topic.id}`)}
         />
       ))}
     </>
