@@ -1,8 +1,11 @@
+import "./App.css";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div style={{ color: "red", fontSize: "50px" }}>
-      Hello Deepak 🚀
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
