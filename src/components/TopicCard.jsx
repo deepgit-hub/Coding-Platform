@@ -1,4 +1,4 @@
-import "../styles/TopicCard.css";
+import "./styles/TopicCard.css";
 
 function TopicCard({ title, locked, onClick }) {
   return (
