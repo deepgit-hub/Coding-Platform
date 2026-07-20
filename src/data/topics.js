@@ -972,15 +972,108 @@ Use the Ternary Operator only for simple if else conditions. If the logic become
 
   completed: false
 },
-  {
-    id: 11,
-    title: "While Loop",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 11,
+
+  title: "While Loop",
+
+  englishDefinition:
+    "A While Loop is used to repeatedly execute a block of code as long as the given condition is true. The loop stops automatically when the condition becomes false.",
+
+  tamilDefinition:
+    "While Loop என்பது கொடுக்கப்பட்ட Condition True ஆக இருக்கும் வரை ஒரே Code Block-ஐ மீண்டும் மீண்டும் இயக்க பயன்படுகிறது. Condition False ஆனவுடன் Loop தானாக நிறுத்தப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers use While Loops when the number of repetitions is unknown, such as reading user input, processing files, monitoring sensors, waiting for user actions, and repeatedly checking system conditions.",
+
+  realWorldUsageTamil:
+    "Developers எத்தனை முறை ஒரு செயலை செய்ய வேண்டும் என்பது முன்கூட்டியே தெரியாத சூழலில் While Loop-ஐ பயன்படுத்துகின்றனர். உதாரணமாக User Input பெறுதல், File Processing, Sensor Monitoring, User Action-ஐ காத்திருத்தல் மற்றும் System Condition-களை மீண்டும் மீண்டும் சரிபார்த்தல் போன்றவற்றில் இது பயன்படுத்தப்படுகிறது.",
+
+  syntax: `while(condition){
+
+    // Code to be executed
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "while → Starts the loop.",
+    "condition → Checked before every iteration.",
+    "If the condition is true, the code inside the loop executes.",
+    "If the condition becomes false, the loop stops.",
+    "The loop variable should be updated inside the loop to avoid an infinite loop."
+  ],
+
+  syntaxExplanationTamil: [
+    "while → Loop-ஐ தொடங்குகிறது.",
+    "condition → ஒவ்வொரு முறையும் Loop இயங்கும் முன் சரிபார்க்கப்படுகிறது.",
+    "Condition True ஆக இருந்தால் Loop-க்குள் இருக்கும் Code இயங்கும்.",
+    "Condition False ஆனவுடன் Loop நிறுத்தப்படுகிறது.",
+    "Infinite Loop வராமல் இருக்க Loop Variable-ஐ Loop-க்குள் Update செய்ய வேண்டும்."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+        int day = 1;
+
+        System.out.println("Attendance Record for " + studentName);
+
+        while(day <= 5){
+
+            System.out.println("Day " + day + " : Present");
+
+            day++;
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: Program execution starts from the main() method.",
+    "Line 5: Stores the student's name.",
+    "Line 6: Initializes the day variable with 1.",
+    "Line 8: Displays the heading.",
+    "Line 10: Checks whether day is less than or equal to 5.",
+    "Line 12: Prints the attendance for the current day.",
+    "Line 14: Increments the day by 1.",
+    "The loop repeats until day becomes 6.",
+    "When the condition becomes false, the loop stops."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: மாணவரின் பெயர் Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 6: day Variable-க்கு ஆரம்ப மதிப்பாக 1 கொடுக்கப்படுகிறது.",
+    "வரி 8: தலைப்பு Console-ல் காட்டப்படுகிறது.",
+    "வரி 10: day 5 அல்லது அதற்கு குறைவாக உள்ளதா என்று சரிபார்க்கப்படுகிறது.",
+    "வரி 12: அந்த நாளின் Attendance Console-ல் காட்டப்படுகிறது.",
+    "வரி 14: day Variable ஒரு மதிப்பு அதிகரிக்கப்படுகிறது.",
+    "day 6 ஆனவுடன் Condition False ஆகி Loop நிறுத்தப்படுகிறது."
+  ],
+
+  output: `Attendance Record for Deepak
+Day 1 : Present
+Day 2 : Present
+Day 3 : Present
+Day 4 : Present
+Day 5 : Present
+
+💡 Note (English)
+A While Loop is best used when the number of repetitions is not known in advance. Always update the loop variable to prevent an infinite loop.
+
+💡 குறிப்பு (Tamil)
+எத்தனை முறை Loop இயங்கும் என்பது முன்கூட்டியே தெரியாத சூழலில் While Loop பயன்படுத்துவது சிறந்தது. Loop Variable-ஐ Update செய்ய மறந்தால் Infinite Loop ஏற்படும்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 12,
     title: "Do While Loop",
