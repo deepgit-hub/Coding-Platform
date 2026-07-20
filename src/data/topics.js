@@ -230,21 +230,117 @@ Age : 20
 CGPA : 8.9
 Grade : A
 Placed : false
-Aim : Front-End Developer`,
+Aim : Cyber-Security`,
 
   locked: true,
 
   completed: false
 },
   {
-    id: 4,
-    title: "Input & Output",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 4,
+
+  title: "Input & Output",
+
+  englishDefinition:
+    "Input is the data given to a program by the user, and Output is the result produced by the program. Java uses the Scanner class to receive input from the user and System.out.println() to display output.",
+
+  tamilDefinition:
+    "Input என்பது பயனர் (User) Program-க்கு வழங்கும் தகவலாகும். Output என்பது Program செயல்பட்ட பிறகு திரையில் காட்டப்படும் முடிவாகும். Java-வில் Scanner Class பயன்படுத்தி Input பெறப்படுகிறது மற்றும் System.out.println() மூலம் Output காட்டப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers use input to receive information such as usernames, passwords, marks, and customer details. Output is used to display messages, results, reports, and other information to users.",
+
+  syntax: `import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+
+int age = sc.nextInt();
+
+System.out.println(age);`,
+
+  syntaxExplanationEnglish: [
+    "import java.util.Scanner; → Imports the Scanner class.",
+    "Scanner sc = new Scanner(System.in); → Creates a Scanner object to receive input.",
+    "sc.nextInt(); → Reads an integer value entered by the user.",
+    "System.out.println(); → Displays output on the console."
+  ],
+
+  syntaxExplanationTamil: [
+    "import java.util.Scanner; → Scanner Class-ஐ Program-க்கு கொண்டு வருகிறது.",
+    "Scanner sc = new Scanner(System.in); → User-இடமிருந்து Input பெற Scanner Object உருவாக்கப்படுகிறது.",
+    "sc.nextInt(); → User கொடுக்கும் Integer மதிப்பை பெறுகிறது.",
+    "System.out.println(); → Output-ஐ Console-ல் காட்டுகிறது."
+  ],
+
+  exampleProgram: `import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Your Name : ");
+        String name = sc.nextLine();
+
+        System.out.print("Enter Your Age : ");
+        int age = sc.nextInt();
+
+        sc.nextLine();
+
+        System.out.print("Enter Your Aim : ");
+        String aim = sc.nextLine();
+
+        System.out.println("\\n----- Student Details -----");
+        System.out.println("Name : " + name);
+        System.out.println("Age : " + age);
+        System.out.println("Aim : " + aim);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Imports the Scanner class.",
+    "Line 5: Program execution starts from the main() method.",
+    "Line 7: Creates a Scanner object to receive input.",
+    "Line 9: Asks the user to enter their name.",
+    "Line 10: Reads the name entered by the user.",
+    "Line 12: Asks the user to enter their age.",
+    "Line 13: Reads the age as an integer.",
+    "Line 15: Consumes the leftover newline character after nextInt().",
+    "Line 17: Asks the user to enter their career aim.",
+    "Line 18: Reads the aim entered by the user.",
+    "Lines 20-23: Displays all the entered details on the console."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Scanner Class Program-க்கு Import செய்யப்படுகிறது.",
+    "வரி 5: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 7: User-இடமிருந்து Input பெற Scanner Object உருவாக்கப்படுகிறது.",
+    "வரி 9: பயனரிடம் பெயர் கேட்கப்படுகிறது.",
+    "வரி 10: பயனர் உள்ளிடும் பெயர் பெறப்படுகிறது.",
+    "வரி 12: பயனரிடம் வயது கேட்கப்படுகிறது.",
+    "வரி 13: வயது Integer ஆக பெறப்படுகிறது.",
+    "வரி 15: nextInt() பிறகு இருக்கும் New Line Character நீக்கப்படுகிறது.",
+    "வரி 17: பயனரிடம் Career Aim கேட்கப்படுகிறது.",
+    "வரி 18: பயனர் உள்ளிடும் Aim பெறப்படுகிறது.",
+    "வரி 20-23: அனைத்து தகவல்களும் Console-ல் காட்டப்படுகின்றன."
+  ],
+
+  output: `Enter Your Name : Deepak
+Enter Your Age : 20
+Enter Your Aim : Cyber Security
+
+----- Student Details -----
+Name : Deepak
+Age : 20
+Aim : Cyber Security`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 5,
     title: "Operators",
