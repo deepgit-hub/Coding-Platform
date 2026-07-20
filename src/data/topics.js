@@ -1487,15 +1487,113 @@ Use the Break Statement when you want to stop a loop immediately after a specifi
 
   completed: false
 },
-  {
-    id: 16,
-    title: "Continue Statement",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 16,
+
+  title: "Continue Statement",
+
+  englishDefinition:
+    "The Continue Statement is used to skip the current iteration of a loop and continue with the next iteration. It does not terminate the loop.",
+
+  tamilDefinition:
+    "Continue Statement என்பது Loop-ன் தற்போதைய Iteration-ஐ மட்டும் தவிர்த்து (Skip செய்து), அடுத்த Iteration-க்கு செல்ல பயன்படுகிறது. இது Loop-ஐ நிறுத்தாது.",
+
+  realWorldUsage:
+    "Developers use the Continue Statement to skip invalid data, ignore holidays while processing attendance, skip unavailable products, and continue processing the remaining records without terminating the loop.",
+
+  realWorldUsageTamil:
+    "Developers தவறான தரவுகளை (Invalid Data) தவிர்க்க, Attendance-ல் Holidays-ஐ Skip செய்ய, கிடைக்காத Products-ஐ புறக்கணிக்க மற்றும் மீதமுள்ள Records-ஐ தொடர்ந்து செயலாக்க Continue Statement-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `for(initialization; condition; increment){
+
+    if(condition){
+
+        continue;
+
+    }
+
+    // Remaining Statements
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "continue → Skips only the current iteration.",
+    "The remaining statements inside the loop are not executed for that iteration.",
+    "The loop immediately proceeds to the next iteration.",
+    "Unlike break, continue does not terminate the loop."
+  ],
+
+  syntaxExplanationTamil: [
+    "continue → தற்போதைய Iteration-ஐ மட்டும் Skip செய்கிறது.",
+    "அந்த Iteration-ல் உள்ள மீதமுள்ள Statements இயக்கப்படாது.",
+    "Loop உடனடியாக அடுத்த Iteration-க்கு செல்கிறது.",
+    "break போல Loop-ஐ நிறுத்தாமல் தொடர்ந்து இயங்கச் செய்கிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        for(int day = 1; day <= 5; day++){
+
+            if(day == 3){
+
+                System.out.println("Day " + day + " : Holiday");
+                continue;
+
+            }
+
+            System.out.println("Day " + day + " : Present");
+
+        }
+
+        System.out.println("Attendance checking completed.");
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Line 5: The for loop checks attendance from Day 1 to Day 5.",
+    "Line 7: Checks whether the current day is Day 3.",
+    "If it is Day 3, 'Holiday' is displayed.",
+    "Line 10: The continue statement skips the remaining statements for Day 3.",
+    "The loop then proceeds directly to Day 4.",
+    "Days 4 and 5 are processed normally.",
+    "Line 17: Displays the completion message after the loop ends."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: For Loop Day 1 முதல் Day 5 வரை Attendance-ஐ சரிபார்க்கிறது.",
+    "வரி 7: தற்போதைய நாள் Day 3 ஆக உள்ளதா என்று சரிபார்க்கப்படுகிறது.",
+    "Day 3 ஆக இருந்தால் 'Holiday' என்று காட்டப்படுகிறது.",
+    "வரி 10: Continue Statement அந்த Iteration-ன் மீதமுள்ள Statements-ஐ Skip செய்கிறது.",
+    "Loop நேரடியாக Day 4-க்கு செல்கிறது.",
+    "Day 4 மற்றும் Day 5 வழக்கம்போல் செயல்படுத்தப்படுகின்றன.",
+    "வரி 17: Loop முடிந்த பிறகு இறுதி செய்தி காட்டப்படுகிறது."
+  ],
+
+  output: `Day 1 : Present
+Day 2 : Present
+Day 3 : Holiday
+Day 4 : Present
+Day 5 : Present
+Attendance checking completed.
+
+💡 Note (English)
+Use the Continue Statement when you want to skip only the current iteration and continue executing the remaining iterations of the loop.
+
+💡 குறிப்பு (Tamil)
+Loop-ஐ நிறுத்தாமல், தற்போதைய Iteration-ஐ மட்டும் Skip செய்து அடுத்த Iteration-ஐ தொடர வேண்டுமெனில் Continue Statement பயன்படுத்த வேண்டும்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 17,
     title: "One Dimensional Array",
