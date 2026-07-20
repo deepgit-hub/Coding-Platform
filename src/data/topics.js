@@ -1480,7 +1480,7 @@ Attendance checking stopped.
 💡 Note 
 Use the Break Statement when you want to stop a loop immediately after a specific condition is met. This improves program performance by avoiding unnecessary iterations.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 ஒரு குறிப்பிட்ட Condition நிறைவேறியவுடன் Loop-ஐ உடனடியாக நிறுத்த வேண்டுமெனில் Break Statement பயன்படுத்த வேண்டும். இது தேவையில்லாத Iteration-களை தவிர்த்து Program-ன் செயல்திறனை (Performance) அதிகரிக்க உதவுகிறது.`,
 
   locked: true,
