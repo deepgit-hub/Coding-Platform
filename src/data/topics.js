@@ -491,20 +491,11 @@ Modulus : 0`,
 
     public static void main(String[] args) {
 
-        String name = "Deepak";
-        int age = 20;
-        String aim = "Cyber Security";
+       double attendance = 86;
+       if(attendance >= 75){
+       System.out.println("Eligible for Semester Exam");
 
-        if(age >= 18){
-
-            System.out.println("Name : " + name);
-            System.out.println("Age : " + age);
-            System.out.println("Aim : " + aim);
-            System.out.println("You are eligible to vote.");
-
-        }
-
-    }
+}
 
 }`,
 
