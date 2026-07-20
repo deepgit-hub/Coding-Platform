@@ -364,6 +364,8 @@ Aim : Cyber Security`,
 
   realWorldUsage:
     "Developers use operators to perform calculations, compare values, make decisions, validate conditions, update variables, and build application logic in software development.",
+  realWorldUsageTamil:
+"Developers கணக்கீடுகள் (Calculations), இரண்டு மதிப்புகளை ஒப்பிடுதல் (Comparison), முடிவெடுத்தல் (Decision Making), Condition-களை சரிபார்த்தல் மற்றும் Application Logic உருவாக்குதல் போன்ற பணிகளில் Operators-ஐ பயன்படுத்துகின்றனர்.",
 
   syntax: `variable operator value;
 
