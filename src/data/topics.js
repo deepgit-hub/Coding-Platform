@@ -1691,14 +1691,120 @@ One-Dimensional Array ஒரே Data Type-ஐ சேர்ந்த பல Value
   completed: false
 },
   {
-    id: 18,
-    title: "Two Dimensional Array",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 18,
+
+  title: "Two-Dimensional Array",
+
+  englishDefinition:
+    "A Two-Dimensional Array is an array of arrays used to store data in rows and columns. Each element is accessed using two indexes: one for the row and one for the column.",
+
+  tamilDefinition:
+    "Two-Dimensional Array என்பது Row மற்றும் Column வடிவில் தரவுகளை சேமிக்க பயன்படும் Array ஆகும். இதில் ஒவ்வொரு Value-யும் இரண்டு Index-கள் (Row Index மற்றும் Column Index) மூலம் அணுகப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers use Two-Dimensional Arrays to store student marks, seating arrangements, matrices, game boards, monthly sales reports, and other tabular data.",
+
+  realWorldUsageTamil:
+    "Developers மாணவர்களின் மதிப்பெண்கள், Seating Arrangement, Matrices, Game Boards, Monthly Sales Reports மற்றும் Table வடிவிலான தரவுகளை சேமிக்க Two-Dimensional Array-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `dataType[][] arrayName = {
+    {value1, value2, value3},
+    {value4, value5, value6}
+};`,
+
+  syntaxExplanationEnglish: [
+    "dataType specifies the type of values stored in the array.",
+    "[][] indicates a two-dimensional array.",
+    "The first index represents the row.",
+    "The second index represents the column.",
+    "Nested loops are commonly used to access all elements."
+  ],
+
+  syntaxExplanationTamil: [
+    "dataType என்பது Array-ல் சேமிக்கப்படும் Values-ன் Data Type ஆகும்.",
+    "[][] என்பது இது Two-Dimensional Array என்பதை குறிக்கிறது.",
+    "முதல் Index Row-ஐ குறிக்கிறது.",
+    "இரண்டாவது Index Column-ஐ குறிக்கிறது.",
+    "அனைத்து Elements-ஐ அணுக பொதுவாக Nested Loop பயன்படுத்தப்படுகிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        int[][] marks = {
+            {85, 90, 78},
+            {88, 76, 92},
+            {91, 84, 87}
+        };
+
+        for(int student = 0; student < marks.length; student++){
+
+            System.out.println("Student " + (student + 1));
+
+            for(int subject = 0; subject < marks[student].length; subject++){
+
+                System.out.println("Subject " + (subject + 1) + " : " + marks[student][subject]);
+
+            }
+
+            System.out.println();
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Lines 5-9: Creates a two-dimensional array named marks containing the marks of three students.",
+    "Line 11: The outer loop accesses each student (row).",
+    "Line 15: Displays the current student's details.",
+    "Line 17: The inner loop accesses each subject (column).",
+    "marks[student][subject] retrieves the mark of a specific student and subject.",
+    "After displaying all subjects of one student, the outer loop moves to the next student.",
+    "The process continues until all students' marks are displayed."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5-9: marks என்ற Two-Dimensional Array உருவாக்கப்பட்டு 3 மாணவர்களின் மதிப்பெண்கள் சேமிக்கப்படுகின்றன.",
+    "வரி 11: Outer Loop ஒவ்வொரு மாணவரையும் (Row) அணுகுகிறது.",
+    "வரி 15: தற்போதைய மாணவரின் விவரம் காட்டப்படுகிறது.",
+    "வரி 17: Inner Loop ஒவ்வொரு பாடத்தையும் (Column) அணுகுகிறது.",
+    "marks[student][subject] மூலம் குறிப்பிட்ட மாணவரின் குறிப்பிட்ட பாடத்தின் மதிப்பெண் பெறப்படுகிறது.",
+    "ஒரு மாணவரின் அனைத்து பாடங்களும் காட்டப்பட்ட பிறகு Outer Loop அடுத்த மாணவருக்கு செல்கிறது.",
+    "அனைத்து மாணவர்களின் மதிப்பெண்களும் காட்டப்படும் வரை இந்த செயல்முறை தொடர்கிறது."
+  ],
+
+  output: `Student 1
+Subject 1 : 85
+Subject 2 : 90
+Subject 3 : 78
+
+Student 2
+Subject 1 : 88
+Subject 2 : 76
+Subject 3 : 92
+
+Student 3
+Subject 1 : 91
+Subject 2 : 84
+Subject 3 : 87
+
+💡 Note (English)
+A Two-Dimensional Array stores data in rows and columns. The first index represents the row, and the second index represents the column. Nested loops are commonly used to access all elements.
+
+💡 குறிப்பு (Tamil)
+Two-Dimensional Array தரவுகளை Row மற்றும் Column வடிவில் சேமிக்கிறது. முதல் Index Row-ஐ குறிக்கிறது; இரண்டாவது Index Column-ஐ குறிக்கிறது. அனைத்து Elements-ஐ அணுக பொதுவாக Nested Loop பயன்படுத்தப்படுகிறது.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 19,
     title: "Array Operations",
