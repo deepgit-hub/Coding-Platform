@@ -1683,7 +1683,7 @@ Subject 5 : 95
 💡 Note
 A One-Dimensional Array stores multiple values of the same data type in a single variable. Each value is accessed using its index, starting from 0. Arrays are commonly used with loops to process all elements efficiently.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு
 One-Dimensional Array ஒரே Data Type-ஐ சேர்ந்த பல Values-ஐ ஒரே Variable-ல் சேமிக்க உதவுகிறது. ஒவ்வொரு Value-யும் அதன் Index மூலம் அணுகப்படுகிறது. Index எப்போதும் 0-இல் இருந்து தொடங்குகிறது. Array-கள் பொதுவாக Loops உடன் சேர்த்து பயன்படுத்தப்படுகின்றன.`,
 
   locked: true,
