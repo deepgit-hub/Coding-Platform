@@ -1584,7 +1584,7 @@ Day 4 : Present
 Day 5 : Present
 Attendance checking completed.
 
-💡 Note (English)
+💡 Note 
 Use the Continue Statement when you want to skip only the current iteration and continue executing the remaining iterations of the loop.
 
 💡 குறிப்பு (Tamil)
