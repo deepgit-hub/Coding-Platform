@@ -140,15 +140,102 @@ Age: 20`,
 
   completed: false
 },
-  {
-    id: 3,
-    title: "Data Types",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 3,
+
+  title: "Data Types",
+
+  englishDefinition:
+    "A data type specifies the kind of value a variable can store. Different data types are used to store numbers, characters, text, and true or false values.",
+
+  tamilDefinition:
+    "Data Type என்பது ஒரு Variable எந்த வகையான தரவை (Data) சேமிக்க வேண்டும் என்பதை குறிப்பிடுகிறது. எண்கள், எழுத்துகள், வார்த்தைகள் மற்றும் True அல்லது False போன்ற மதிப்புகளை சேமிக்க வெவ்வேறு Data Types பயன்படுத்தப்படுகின்றன.",
+
+  realWorldUsage:
+    "Developers use data types to store different kinds of information such as age, salary, marks, names, grades, and login status while building software applications.",
+
+  syntax: `dataType variableName = value;
+
+// Examples
+int age = 20;
+double cgpa = 8.9;
+char grade = 'A';
+String name = "Deepak";
+boolean placed = false;`,
+
+  syntaxExplanationEnglish: [
+    "dataType → Specifies the type of data to be stored.",
+    "variableName → The name of the variable.",
+    "= → Assignment operator used to assign a value.",
+    "value → The actual data stored in the variable.",
+    "Each variable must store a value that matches its data type."
+  ],
+
+  syntaxExplanationTamil: [
+    "dataType → Variable எந்த வகை தரவை சேமிக்க வேண்டும் என்பதை குறிப்பிடுகிறது.",
+    "variableName → Variable-க்கு கொடுக்கப்படும் பெயர்.",
+    "= → மதிப்பை Variable-க்கு ஒதுக்க பயன்படும் Assignment Operator.",
+    "value → Variable-ல் சேமிக்கப்படும் உண்மையான தரவு.",
+    "ஒவ்வொரு Variable-லும் அதன் Data Type-க்கு பொருந்தும் மதிப்பே சேமிக்கப்பட வேண்டும்."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        int age = 20;
+        String name = "Deepak";
+        double cgpa = 8.9;
+        char grade = 'A';
+        boolean placed = false;
+        String aim = "Front-End Developer";
+
+        System.out.println("Name : " + name);
+        System.out.println("Age : " + age);
+        System.out.println("CGPA : " + cgpa);
+        System.out.println("Grade : " + grade);
+        System.out.println("Placed : " + placed);
+        System.out.println("Aim : " + aim);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is where the program starts executing.",
+    "Line 5: Stores the age using the int data type.",
+    "Line 6: Stores the name using the String data type.",
+    "Line 7: Stores the CGPA using the double data type.",
+    "Line 8: Stores the grade using the char data type.",
+    "Line 9: Stores the placement status using the boolean data type.",
+    "Line 10: Stores the career aim using the String data type.",
+    "Lines 12–17: Displays all the stored values on the console."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: int Data Type பயன்படுத்தி வயது (Age) சேமிக்கப்படுகிறது.",
+    "வரி 6: String Data Type பயன்படுத்தி பெயர் (Name) சேமிக்கப்படுகிறது.",
+    "வரி 7: double Data Type பயன்படுத்தி CGPA சேமிக்கப்படுகிறது.",
+    "வரி 8: char Data Type பயன்படுத்தி Grade சேமிக்கப்படுகிறது.",
+    "வரி 9: boolean Data Type பயன்படுத்தி Placement Status சேமிக்கப்படுகிறது.",
+    "வரி 10: String Data Type பயன்படுத்தி Career Aim சேமிக்கப்படுகிறது.",
+    "வரி 12–17: அனைத்து மதிப்புகளும் Console-ல் அச்சிடப்படுகின்றன."
+  ],
+
+  output: `Name : Deepak
+Age : 20
+CGPA : 8.9
+Grade : A
+Placed : false
+Aim : Front-End Developer`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 4,
     title: "Input & Output",
