@@ -80,7 +80,9 @@ const topics = [
 
   realWorldUsage:
     "Developers use variables to store information such as usernames, account balances, product prices, marks, login status, and many other values while building software applications.",
-
+  realWorldUsageTamil:
+"Software உருவாக்கும் போது Developers, பயனரின் பெயர் (Username), வயது (Age), வங்கி இருப்பு (Account Balance), பொருளின் விலை (Product Price), மதிப்பெண்கள் (Marks), Login நிலை (Login Status) போன்ற பல்வேறு தகவல்களை சேமிக்க Variables-ஐ பயன்படுத்துகின்றனர்.",
+  
   syntax: `dataType variableName = value;
 
 // Example
