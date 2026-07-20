@@ -1279,7 +1279,7 @@ Subject 5 : Pass
 💡 Note 
 Use a For Loop when you already know how many times the loop should execute. It is commonly used with arrays, lists, and fixed-size data.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Loop எத்தனை முறை இயங்க வேண்டும் என்பது முன்கூட்டியே தெரிந்திருந்தால் For Loop பயன்படுத்துவது சிறந்தது. Arrays, Lists மற்றும் Fixed Size Data-களுடன் இது அதிகமாக பயன்படுத்தப்படுகிறது.`,
 
   locked: true,
