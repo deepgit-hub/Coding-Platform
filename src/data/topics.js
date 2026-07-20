@@ -66,14 +66,80 @@ const topics = [
   completed: false,
 },
   {
-    id: 2,
-    title: "Variables",
-    englishDefinition: "A variable is a named memory location used to store data. The value stored in a variable can change during the execution of a program.",
-    tamilDefinition: "Variable என்பது தரவுகளை (Data) சேமித்து வைக்கப் பயன்படும் ஒரு பெயரிடப்பட்ட நினைவக இடமாகும். ஒரு Program இயங்கும் போது அதில் சேமிக்கப்பட்டுள்ள மதிப்பு (Value) தேவைக்கேற்ப மாற்றப்படலாம்.",
-    realWorldUsage: "Developers use variables to store information such as a user's name, account balance, shopping cart total, marks, or login status while building applications.",
-    locked: true,
-    completed: false,
-  },
+  id: 2,
+
+  title: "Variables",
+
+  englishDefinition:
+    "A variable is a named memory location used to store data. The value stored in a variable can be changed during program execution unless it is declared as final.",
+
+  tamilDefinition:
+    "Variable என்பது தரவுகளை (Data) சேமித்து வைக்க பயன்படும் பெயரிடப்பட்ட நினைவக இடமாகும் (Memory Location). Program இயங்கும் போது Variable-ல் உள்ள மதிப்பை மாற்றலாம். ஆனால் final என்று அறிவிக்கப்பட்ட Variable-ன் மதிப்பை மாற்ற முடியாது.",
+
+  realWorldUsage:
+    "Developers use variables to store information such as usernames, account balances, product prices, marks, login status, and many other values while building software applications.",
+
+  syntax: `dataType variableName = value;
+
+// Example
+int age = 20;`,
+
+  syntaxExplanationEnglish: [
+    "dataType → Specifies the type of data that the variable can store.",
+    "variableName → The name given to the variable.",
+    "= → Assignment operator used to assign a value.",
+    "value → The data stored inside the variable.",
+    "Every variable must have a valid name and a compatible value."
+  ],
+
+  syntaxExplanationTamil: [
+    "dataType → Variable எந்த வகை தரவை (Data) சேமிக்க வேண்டும் என்பதை குறிப்பிடுகிறது.",
+    "variableName → Variable-க்கு கொடுக்கப்படும் பெயர்.",
+    "= → மதிப்பை Variable-க்கு ஒதுக்க பயன்படும் Assignment Operator.",
+    "value → Variable-ல் சேமிக்கப்படும் தரவு.",
+    "ஒவ்வொரு Variable-க்கும் சரியான பெயரும் அதற்கேற்ற மதிப்பும் இருக்க வேண்டும்."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        int age = 20;
+
+        String name = "Deepak";
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the entry point of the Java program.",
+    "Line 5: Declares an integer variable named age and stores the value 20.",
+    "Line 7: Declares a String variable named name and stores 'Deepak'.",
+    "Line 9: Prints the value stored in the name variable.",
+    "Line 10: Prints the value stored in the age variable."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: age என்ற Integer Variable உருவாக்கப்பட்டு 20 என்ற மதிப்பு சேமிக்கப்படுகிறது.",
+    "வரி 7: name என்ற String Variable உருவாக்கப்பட்டு 'Deepak' என்ற மதிப்பு சேமிக்கப்படுகிறது.",
+    "வரி 9: name Variable-ல் உள்ள மதிப்பு திரையில் காட்டப்படுகிறது.",
+    "வரி 10: age Variable-ல் உள்ள மதிப்பு திரையில் காட்டப்படுகிறது."
+  ],
+
+  output: `Name: Deepak
+Age: 20`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 3,
     title: "Data Types",
