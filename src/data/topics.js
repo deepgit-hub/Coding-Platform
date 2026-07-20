@@ -868,7 +868,7 @@ Result : Distinction`,
   output: `Student Name : Deepak
 Department : Cyber Security
 
-💡 Note (English)
+💡 Note 
 Switch Case is the best choice when a single variable has multiple possible values. It makes the code cleaner and easier to understand than writing many if else statements.
 
 💡 குறிப்பு (Tamil)
