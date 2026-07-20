@@ -1806,14 +1806,99 @@ Two-Dimensional Array தரவுகளை Row மற்றும் Column வ
   completed: false
 },
   {
-    id: 19,
-    title: "Array Operations",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 19,
+
+  title: "Array Operations",
+
+  englishDefinition:
+    "Array Operations are the common actions performed on arrays, such as traversing, searching, updating, inserting, and deleting elements.",
+
+  tamilDefinition:
+    "Array Operations என்பது Array-ல் உள்ள தரவுகளின் மீது செய்யப்படும் பொதுவான செயல்பாடுகள் ஆகும். அவை Traversing, Searching, Updating, Inserting மற்றும் Deleting ஆகும்.",
+
+  realWorldUsage:
+    "Developers perform array operations to display student records, search for a product, update employee information, insert new records, and remove unwanted data.",
+
+  realWorldUsageTamil:
+    "Developers மாணவர்களின் தகவல்களைக் காட்ட, Products-ஐ தேட, Employee தகவல்களை புதுப்பிக்க, புதிய Records-ஐ சேர்க்க மற்றும் தேவையில்லாத தரவுகளை நீக்க Array Operations-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `array[index]`,
+
+  syntaxExplanationEnglish: [
+    "Traversing → Access every element in the array.",
+    "Searching → Find a specific element in the array.",
+    "Updating → Change the value of an existing element.",
+    "Inserting → Add a new element at a specific position.",
+    "Deleting → Remove an existing element from the array."
+  ],
+
+  syntaxExplanationTamil: [
+    "Traversing → Array-ல் உள்ள அனைத்து Elements-யும் ஒன்றன்பின் ஒன்றாக அணுகுவது.",
+    "Searching → குறிப்பிட்ட Element-ஐ தேடுவது.",
+    "Updating → ஏற்கனவே உள்ள Value-ஐ மாற்றுவது.",
+    "Inserting → புதிய Element-ஐ குறிப்பிட்ட இடத்தில் சேர்ப்பது.",
+    "Deleting → ஏற்கனவே உள்ள Element-ஐ நீக்குவது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        int[] marks = {85, 90, 78, 88, 95};
+
+        System.out.println("Student : Deepak");
+        System.out.println("Subject Marks");
+
+        for(int i = 0; i < marks.length; i++){
+
+            System.out.println("Subject " + (i + 1) + " : " + marks[i]);
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method starts the program.",
+    "Line 5: Creates an array containing five subject marks.",
+    "Lines 7-8: Displays the student name and heading.",
+    "Line 10: The for loop traverses every element in the array.",
+    "marks.length gives the total number of elements.",
+    "marks[i] accesses each mark using its index.",
+    "All subject marks are displayed one by one."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: 5 பாடங்களின் மதிப்பெண்களை கொண்ட Array உருவாக்கப்படுகிறது.",
+    "வரி 7-8: மாணவரின் பெயரும் தலைப்பும் காட்டப்படுகின்றன.",
+    "வரி 10: For Loop Array-ல் உள்ள அனைத்து Elements-யும் ஒன்றன்பின் ஒன்றாக அணுகுகிறது.",
+    "marks.length என்பது Array-யில் உள்ள மொத்த Elements-ன் எண்ணிக்கையை வழங்குகிறது.",
+    "marks[i] மூலம் ஒவ்வொரு மதிப்பெண்ணும் பெறப்படுகிறது.",
+    "அனைத்து Subject Marks-யும் ஒன்றன்பின் ஒன்றாக காட்டப்படுகின்றன."
+  ],
+
+  output: `Student : Deepak
+Subject Marks
+Subject 1 : 85
+Subject 2 : 90
+Subject 3 : 78
+Subject 4 : 88
+Subject 5 : 95
+
+💡 Note (English)
+The five common array operations are Traversing, Searching, Updating, Inserting, and Deleting. Traversing is the most frequently used operation and is usually performed using loops.
+
+💡 குறிப்பு (Tamil)
+Array-ல் செய்யப்படும் முக்கிய செயல்பாடுகள் Traversing, Searching, Updating, Inserting மற்றும் Deleting ஆகும். இதில் Traversing அதிகமாக பயன்படுத்தப்படும் Operation ஆகும். இது பொதுவாக Loops மூலம் செய்யப்படுகிறது.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 20,
     title: "Methods",
