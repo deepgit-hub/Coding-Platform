@@ -749,15 +749,129 @@ Result : Distinction`,
 
   completed: false
 },
-  {
-    id: 9,
-    title: "Switch Case",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 9,
+
+  title: "Switch Case",
+
+  englishDefinition:
+    "A Switch Case statement is a decision-making statement used to execute one block of code from multiple options based on the value of an expression. It is a better alternative to multiple if else statements when checking a single variable against different values.",
+
+  tamilDefinition:
+    "Switch Case என்பது ஒரு முடிவு எடுக்கும் (Decision Making) Statement ஆகும். ஒரு Variable-ன் மதிப்பை (Value) அடிப்படையாகக் கொண்டு பல்வேறு விருப்பங்களில் (Options) ஒன்றைத் தேர்வு செய்து அதற்கான Code-ஐ இயக்க பயன்படுகிறது. ஒரே Variable-ஐ பல மதிப்புகளுடன் ஒப்பிட வேண்டிய சூழலில் பல if else Statement-களுக்கு பதிலாக Switch Case பயன்படுத்தப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers use Switch Case to implement menu-driven programs, language selection, department selection, payment methods, user roles, and navigation systems where one value determines one action.",
+
+  realWorldUsageTamil:
+    "Developers Menu Driven Program, மொழி தேர்வு (Language Selection), Department Selection, Payment Method, User Role மற்றும் Navigation System போன்றவற்றில் ஒரு குறிப்பிட்ட Value-க்கு ஏற்ப சரியான செயல்பாட்டை செய்ய Switch Case-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `switch(expression){
+
+    case value1:
+        // Code
+        break;
+
+    case value2:
+        // Code
+        break;
+
+    default:
+        // Code
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "switch → Starts the Switch Case statement.",
+    "expression → The value that will be checked.",
+    "case → Represents a possible value of the expression.",
+    "break → Terminates the current case and exits the switch statement.",
+    "default → Executes when none of the cases match."
+  ],
+
+  syntaxExplanationTamil: [
+    "switch → Switch Case Statement-ஐ தொடங்குகிறது.",
+    "expression → எந்த Value சரிபார்க்கப்பட வேண்டும் என்பதை குறிப்பிடுகிறது.",
+    "case → சாத்தியமான ஒரு மதிப்பை (Possible Value) குறிக்கிறது.",
+    "break → தற்போதைய Case-ஐ முடித்து Switch Statement-இல் இருந்து வெளியேறுகிறது.",
+    "default → எந்த Case-மும் பொருந்தவில்லை என்றால் இந்த Block இயங்கும்."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+        int department = 4;
+
+        System.out.println("Student Name : " + studentName);
+
+        switch(department){
+
+            case 1:
+                System.out.println("Department : Computer Science Engineering");
+                break;
+
+            case 2:
+                System.out.println("Department : Information Technology");
+                break;
+
+            case 3:
+                System.out.println("Department : Artificial Intelligence and Machine Learning");
+                break;
+
+            case 4:
+                System.out.println("Department : Cyber Security");
+                break;
+
+            default:
+                System.out.println("Invalid Department");
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Line 5: Stores the student's name.",
+    "Line 6: Stores the department number.",
+    "Line 8: Displays the student's name.",
+    "Line 10: The switch statement checks the value of the department variable.",
+    "Case 1 displays 'Computer Science Engineering'.",
+    "Case 2 displays 'Information Technology'.",
+    "Case 3 displays 'Artificial Intelligence and Machine Learning'.",
+    "Case 4 displays 'Cyber Security'.",
+    "Since the department value is 4, Case 4 executes.",
+    "The break statement stops the execution of the switch statement.",
+    "The default block executes only when none of the cases match."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: மாணவரின் பெயர் Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 6: Department Number Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 8: மாணவரின் பெயர் Console-ல் காட்டப்படுகிறது.",
+    "வரி 10: Department Variable-ன் Value Switch Statement மூலம் சரிபார்க்கப்படுகிறது.",
+    "Case 1 இயங்கினால் 'Computer Science Engineering' காட்டப்படும்.",
+    "Case 2 இயங்கினால் 'Information Technology' காட்டப்படும்.",
+    "Case 3 இயங்கினால் 'Artificial Intelligence and Machine Learning' காட்டப்படும்.",
+    "Case 4 இயங்கினால் 'Cyber Security' காட்டப்படும்.",
+    "Department Value 4 என்பதால் Case 4 மட்டும் இயங்குகிறது.",
+    "break Statement தற்போதைய Case-ஐ முடித்து Switch Statement-இல் இருந்து வெளியேறுகிறது.",
+    "எந்த Case-மும் பொருந்தவில்லை என்றால் மட்டும் default Block இயங்கும்."
+  ],
+
+  output: `Student Name : Deepak
+Department : Cyber Security`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 10,
     title: "Ternary Operator",
