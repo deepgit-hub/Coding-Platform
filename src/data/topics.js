@@ -1187,14 +1187,105 @@ Do While Loop-ல் Condition பின்னர் சரிபார்க்
   completed: false
 },
   {
-    id: 13,
-    title: "For Loop",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 13,
+
+  title: "For Loop",
+
+  englishDefinition:
+    "A For Loop is used to repeatedly execute a block of code for a specific number of times. It is commonly used when the number of iterations is known in advance.",
+
+  tamilDefinition:
+    "For Loop என்பது ஒரு குறிப்பிட்ட எண்ணிக்கையிலான (Fixed Number of Times) முறைகள் ஒரே Code Block-ஐ மீண்டும் மீண்டும் இயக்க பயன்படுகிறது. எத்தனை முறை Loop இயங்க வேண்டும் என்பது முன்கூட்டியே தெரிந்திருந்தால் For Loop பயன்படுத்தப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers use For Loops to display student records, process marks, generate reports, display products, iterate through arrays, and perform repetitive tasks where the number of iterations is known.",
+
+  realWorldUsageTamil:
+    "Developers மாணவர்களின் தகவல்களை காட்டுதல், மதிப்பெண்களை செயலாக்குதல் (Process Marks), Reports உருவாக்குதல், Products-ஐ காட்டுதல், Arrays-ல் உள்ள தரவுகளை அணுகுதல் மற்றும் முன்கூட்டியே தெரிந்த எண்ணிக்கையிலான செயல்களை மீண்டும் மீண்டும் செய்ய For Loop-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `for(initialization; condition; increment/decrement){
+
+    // Code to be executed
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "initialization → Executes only once before the loop starts.",
+    "condition → Checked before every iteration.",
+    "increment/decrement → Updates the loop variable after every iteration.",
+    "The loop continues until the condition becomes false.",
+    "For Loop is best when the number of iterations is known."
+  ],
+
+  syntaxExplanationTamil: [
+    "initialization → Loop தொடங்கும் முன் ஒரு முறை மட்டும் இயங்கும்.",
+    "condition → ஒவ்வொரு முறையும் Loop இயங்கும் முன் சரிபார்க்கப்படுகிறது.",
+    "increment/decrement → ஒவ்வொரு Iteration-க்கும் பிறகு Loop Variable Update செய்யப்படுகிறது.",
+    "Condition False ஆனவுடன் Loop நிறுத்தப்படுகிறது.",
+    "எத்தனை முறை Loop இயங்க வேண்டும் என்பது தெரிந்திருந்தால் For Loop பயன்படுத்தப்படுகிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+
+        System.out.println("Student : " + studentName);
+        System.out.println("Subject Marks");
+
+        for(int subject = 1; subject <= 5; subject++){
+
+            System.out.println("Subject " + subject + " : Pass");
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Line 5: Stores the student's name.",
+    "Lines 7-8: Displays the heading.",
+    "Line 10: Initializes the subject variable with 1.",
+    "The loop continues while subject is less than or equal to 5.",
+    "After every iteration, subject is increased by 1.",
+    "Line 12: Displays the result of each subject.",
+    "When subject becomes 6, the condition becomes false and the loop stops."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: மாணவரின் பெயர் Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 7-8: தலைப்பு Console-ல் காட்டப்படுகிறது.",
+    "வரி 10: subject Variable-க்கு ஆரம்ப மதிப்பாக 1 கொடுக்கப்படுகிறது.",
+    "subject <= 5 இருக்கும் வரை Loop தொடர்ந்து இயங்குகிறது.",
+    "ஒவ்வொரு முறையும் subject ஒரு மதிப்பு அதிகரிக்கப்படுகிறது.",
+    "வரி 12: ஒவ்வொரு Subject-ன் Result Console-ல் காட்டப்படுகிறது.",
+    "subject 6 ஆனவுடன் Condition False ஆகி Loop நிறுத்தப்படுகிறது."
+  ],
+
+  output: `Student : Deepak
+Subject Marks
+Subject 1 : Pass
+Subject 2 : Pass
+Subject 3 : Pass
+Subject 4 : Pass
+Subject 5 : Pass
+
+💡 Note (English)
+Use a For Loop when you already know how many times the loop should execute. It is commonly used with arrays, lists, and fixed-size data.
+
+💡 குறிப்பு (Tamil)
+Loop எத்தனை முறை இயங்க வேண்டும் என்பது முன்கூட்டியே தெரிந்திருந்தால் For Loop பயன்படுத்துவது சிறந்தது. Arrays, Lists மற்றும் Fixed Size Data-களுடன் இது அதிகமாக பயன்படுத்தப்படுகிறது.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 14,
     title: "Nested Loops",
