@@ -1067,7 +1067,7 @@ Day 5 : Present
 💡 Note (English)
 A While Loop is best used when the number of repetitions is not known in advance. Always update the loop variable to prevent an infinite loop.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 எத்தனை முறை Loop இயங்கும் என்பது முன்கூட்டியே தெரியாத சூழலில் While Loop பயன்படுத்துவது சிறந்தது. Loop Variable-ஐ Update செய்ய மறந்தால் Infinite Loop ஏற்படும்.`,
 
   locked: true,
