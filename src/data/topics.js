@@ -1378,7 +1378,7 @@ Loop எத்தனை முறை இயங்க வேண்டும் �
 💡 Note 
 Pattern Printing is one of the best applications of Nested Loops. The outer loop controls the rows, while the inner loop controls the columns or symbols printed in each row.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Pattern Printing என்பது Nested Loop-ன் மிகவும் பிரபலமான பயன்பாடுகளில் ஒன்றாகும். Outer Loop Rows-ஐ கட்டுப்படுத்துகிறது. Inner Loop ஒவ்வொரு Row-லும் அச்சிடப்படும் Symbols அல்லது Columns-ஐ கட்டுப்படுத்துகிறது.`,
 
   locked: true,
