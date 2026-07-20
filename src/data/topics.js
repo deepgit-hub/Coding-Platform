@@ -543,14 +543,107 @@ Eligible for Semester Examination`,
 },
 
   {
-    id: 7,
-    title: "If Else",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 7,
+
+  title: "If Else Statement",
+
+  englishDefinition:
+    "An if else statement is a decision-making statement used to execute one block of code when the condition is true and another block of code when the condition is false.",
+
+  tamilDefinition:
+    "If Else Statement என்பது ஒரு முடிவு எடுக்கும் (Decision Making) Statement ஆகும். கொடுக்கப்பட்ட Condition True ஆக இருந்தால் if Block இயங்கும். இல்லையெனில் (False) else Block இயங்கும்.",
+
+  realWorldUsage:
+    "Developers use if else statements to make decisions such as checking login credentials, determining pass or fail, verifying payment status, checking product availability, and controlling user access in applications.",
+
+  realWorldUsageTamil:
+    "Developers Login வெற்றிகரமாக உள்ளதா என்பதை சரிபார்க்க, மாணவர் தேர்ச்சி பெற்றாரா என்பதை கண்டறிய, Payment வெற்றிகரமாக முடிந்ததா என்பதை உறுதிப்படுத்த, Product இருப்பில் உள்ளதா என்பதை சரிபார்க்க மற்றும் பயனருக்கு அனுமதி வழங்க வேண்டுமா என்பதை முடிவு செய்ய If Else Statement-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `if(condition){
+
+    // Executes if the condition is true
+
+}
+else{
+
+    // Executes if the condition is false
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "if → Executes the code when the condition is true.",
+    "condition → A boolean expression that evaluates to true or false.",
+    "else → Executes when the condition is false.",
+    "Only one block (if or else) will execute.",
+    "Curly braces { } define the code block."
+  ],
+
+  syntaxExplanationTamil: [
+    "if → Condition True ஆக இருந்தால் இந்த Block இயங்கும்.",
+    "condition → True அல்லது False ஆக இருக்கும் Boolean Expression.",
+    "else → Condition False ஆக இருந்தால் இந்த Block இயங்கும்.",
+    "if அல்லது else ஆகியவற்றில் ஒரு Block மட்டுமே இயங்கும்.",
+    "{ } Curly Braces Code Block-ஐ குறிக்கிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+        double attendance = 68;
+
+        System.out.println("Student Name : " + studentName);
+        System.out.println("Attendance : " + attendance + "%");
+
+        if(attendance >= 75){
+
+            System.out.println("Eligible for Semester Examination");
+
+        }
+        else{
+
+            System.out.println("Not Eligible for Semester Examination");
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Line 5: Stores the student's name.",
+    "Line 6: Stores the attendance percentage.",
+    "Lines 8-9: Displays the student's details.",
+    "Line 11: Checks whether the attendance is greater than or equal to 75.",
+    "If the condition is true, the if block executes.",
+    "If the condition is false, the else block executes.",
+    "Since the attendance is 68, the else block executes and displays 'Not Eligible for Semester Examination'."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: மாணவரின் பெயர் சேமிக்கப்படுகிறது.",
+    "வரி 6: Attendance Percentage சேமிக்கப்படுகிறது.",
+    "வரி 8-9: மாணவரின் தகவல்கள் Console-ல் காட்டப்படுகின்றன.",
+    "வரி 11: Attendance 75 அல்லது அதற்கு மேல் உள்ளதா என்று Condition சரிபார்க்கப்படுகிறது.",
+    "Condition True ஆக இருந்தால் if Block இயங்கும்.",
+    "Condition False ஆக இருந்தால் else Block இயங்கும்.",
+    "68 என்பது 75-ஐ விட குறைவாக இருப்பதால் else Block இயங்கி 'Not Eligible for Semester Examination' என்ற செய்தி காட்டப்படுகிறது."
+  ],
+
+  output: `Student Name : Deepak
+Attendance : 68.0%
+
+Not Eligible for Semester Examination`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 8,
     title: "Nested If",
