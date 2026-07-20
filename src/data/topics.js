@@ -341,24 +341,189 @@ Aim : Cyber Security`,
 
   completed: false
 },
-  {
-    id: 5,
-    title: "Operators",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
-  {
-    id: 6,
-    title: "If Statement",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 5,
+
+  title: "Operators",
+
+  englishDefinition:
+    "Operators are special symbols used to perform operations on variables and values. Java provides different types of operators such as arithmetic, relational, logical, assignment, increment/decrement, and more.",
+
+  tamilDefinition:
+    "Operators என்பது Variables மற்றும் Values மீது பல்வேறு செயல்பாடுகளை (Operations) செய்ய பயன்படும் சிறப்பு குறியீடுகள் (Special Symbols) ஆகும். Java-வில் Arithmetic, Relational, Logical, Assignment, Increment/Decrement போன்ற பல வகையான Operators உள்ளன.",
+
+  realWorldUsage:
+    "Developers use operators to perform calculations, compare values, make decisions, validate conditions, update variables, and build application logic in software development.",
+
+  syntax: `variable operator value;
+
+// Examples
+int sum = 10 + 5;
+int difference = 10 - 5;
+int product = 10 * 5;
+int quotient = 10 / 5;
+int remainder = 10 % 3;`,
+
+  syntaxExplanationEnglish: [
+    "variable → Stores the result of the operation.",
+    "operator → Performs a specific operation such as addition, subtraction, multiplication, or comparison.",
+    "value → The operands on which the operator performs the operation.",
+    "Different operators perform different tasks in a program."
+  ],
+
+  syntaxExplanationTamil: [
+    "variable → Operation-ன் முடிவை சேமிக்கிறது.",
+    "operator → கூட்டல், கழித்தல், பெருக்கல், ஒப்பிடுதல் போன்ற செயல்களை செய்கிறது.",
+    "value → Operator செயல்படும் மதிப்புகள் (Operands).",
+    "ஒவ்வொரு Operator-மும் ஒரு குறிப்பிட்ட செயல்பாட்டைச் செய்கிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String name = "Deepak";
+        int age = 20;
+
+        int a = 15;
+        int b = 5;
+
+        System.out.println("Name : " + name);
+        System.out.println("Age : " + age);
+
+        System.out.println("\\nArithmetic Operators");
+        System.out.println("Addition : " + (a + b));
+        System.out.println("Subtraction : " + (a - b));
+        System.out.println("Multiplication : " + (a * b));
+        System.out.println("Division : " + (a / b));
+        System.out.println("Modulus : " + (a % b));
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the program.",
+    "Line 5: Stores the name 'Deepak' in a String variable.",
+    "Line 6: Stores the age 20 in an integer variable.",
+    "Lines 8-9: Declares two integer variables for performing operations.",
+    "Lines 11-12: Displays the student's name and age.",
+    "Line 14: Prints the heading 'Arithmetic Operators'.",
+    "Lines 15-19: Performs addition, subtraction, multiplication, division, and modulus operations and displays the results."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: 'Deepak' என்ற பெயர் String Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 6: 20 என்ற வயது Integer Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 8-9: கணித செயல்பாடுகளுக்காக இரண்டு Integer Variables உருவாக்கப்படுகின்றன.",
+    "வரி 11-12: மாணவரின் பெயர் மற்றும் வயது திரையில் காட்டப்படுகின்றன.",
+    "வரி 14: 'Arithmetic Operators' என்ற தலைப்பு காட்டப்படுகிறது.",
+    "வரி 15-19: கூட்டல், கழித்தல், பெருக்கல், வகுத்தல் மற்றும் மீதி (Modulus) கணக்கிடப்பட்டு Console-ல் காட்டப்படுகிறது."
+  ],
+
+  output: `Name : Deepak
+Age : 20
+
+Arithmetic Operators
+Addition : 20
+Subtraction : 10
+Multiplication : 75
+Division : 3
+Modulus : 0`,
+
+  locked: true,
+
+  completed: false
+},
+    {
+  id: 6,
+
+  title: "If Statement",
+
+  englishDefinition:
+    "An if statement is a decision-making statement used to execute a block of code only when a specified condition is true. If the condition is false, the code inside the if block is skipped.",
+
+  tamilDefinition:
+    "If Statement என்பது ஒரு முடிவு எடுக்கும் (Decision Making) Statement ஆகும். கொடுக்கப்பட்ட Condition உண்மையாக (True) இருந்தால் மட்டுமே அதன் உள்ளே உள்ள Code இயங்கும். Condition False ஆக இருந்தால் அந்த Code இயக்கப்படாது.",
+
+  realWorldUsage:
+    "Developers use if statements to make decisions such as checking login credentials, verifying marks, validating payments, checking account balance, and controlling access to different features in an application.",
+
+  syntax: `if(condition){
+
+    // Code to be executed
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "if → The keyword used to start the decision-making statement.",
+    "condition → A boolean expression that evaluates to either true or false.",
+    "If the condition is true, the code inside the curly braces executes.",
+    "If the condition is false, the code inside the if block is skipped.",
+    "Curly braces { } define the block of code that belongs to the if statement."
+  ],
+
+  syntaxExplanationTamil: [
+    "if → முடிவு எடுக்கும் Statement-ஐ தொடங்க பயன்படும் Keyword.",
+    "condition → True அல்லது False ஆக இருக்கும் ஒரு Boolean Expression.",
+    "Condition True ஆக இருந்தால் Curly Braces-க்குள் இருக்கும் Code இயங்கும்.",
+    "Condition False ஆக இருந்தால் அந்த Code இயக்கப்படாது.",
+    "{ } Curly Braces என்பது if Statement-க்கு சொந்தமான Code Block-ஐ குறிக்கிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String name = "Deepak";
+        int age = 20;
+        String aim = "Cyber Security";
+
+        if(age >= 18){
+
+            System.out.println("Name : " + name);
+            System.out.println("Age : " + age);
+            System.out.println("Aim : " + aim);
+            System.out.println("You are eligible to vote.");
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is where the program starts execution.",
+    "Lines 5-7: Stores the student's name, age, and career aim in variables.",
+    "Line 9: Checks whether the age is greater than or equal to 18.",
+    "Since the condition is true (20 >= 18), the if block executes.",
+    "Lines 11-14: Displays the student's details and the eligibility message.",
+    "If the age had been less than 18, none of these statements would have been executed."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5-7: மாணவரின் பெயர், வயது மற்றும் Career Aim ஆகியவை Variable-களில் சேமிக்கப்படுகின்றன.",
+    "வரி 9: வயது 18 அல்லது அதற்கு மேல் உள்ளதா என்று Condition சரிபார்க்கப்படுகிறது.",
+    "20 >= 18 என்பது True என்பதால் if Block இயங்குகிறது.",
+    "வரி 11-14: மாணவரின் விவரங்களும் 'You are eligible to vote.' என்ற செய்தியும் Console-ல் காட்டப்படுகின்றன.",
+    "வயது 18-க்கு குறைவாக இருந்தால் if Block-க்குள் உள்ள எந்த Code-மும் இயக்கப்படாது."
+  ],
+
+  output: `Name : Deepak
+Age : 20
+Aim : Cyber Security
+You are eligible to vote.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 7,
     title: "If Else",
