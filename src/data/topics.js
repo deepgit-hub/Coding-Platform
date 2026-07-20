@@ -157,6 +157,10 @@ Age: 20`,
 
   realWorldUsage:
     "Developers use data types to store different kinds of information such as age, salary, marks, names, grades, and login status while building software applications.",
+  
+realWorldUsageTamil:
+"Developers வயது (Age), மதிப்பெண்கள் (Marks), பெயர் (Name), சம்பளம் (Salary), Grade, Login Status போன்ற வெவ்வேறு வகையான தகவல்களை சரியான முறையில் சேமிக்க Data Types-ஐ பயன்படுத்துகின்றனர்.",
+  
 
   syntax: `dataType variableName = value;
 
