@@ -463,8 +463,10 @@ Modulus : 0`,
 
   realWorldUsage:
     "Developers use if statements to make decisions such as checking login credentials, verifying marks, validating payments, checking account balance, and controlling access to different features in an application.",
+
   realWorldUsageTamil:
- "Developers Login வெற்றிகரமாக உள்ளதா என்பதை சரிபார்க்க, மாணவர் தேர்ச்சி பெற்றாரா என்பதை கண்டறிய, Bank Account-ல் போதுமான இருப்பு உள்ளதா என்பதை சரிபார்க்க, Payment வெற்றிகரமாக முடிந்ததா என்பதை உறுதிப்படுத்த மற்றும் குறிப்பிட்ட நிபந்தனை (Condition) உண்மையாக இருந்தால் மட்டும் ஒரு செயல்பாட்டை செய்ய If Statement-ஐ பயன்படுத்துகின்றனர்.",    
+    "Developers Login வெற்றிகரமாக உள்ளதா என்பதை சரிபார்க்க, மாணவர் தேர்ச்சி பெற்றாரா என்பதை கண்டறிய, Bank Account-ல் போதுமான இருப்பு உள்ளதா என்பதை சரிபார்க்க, Payment வெற்றிகரமாக முடிந்ததா என்பதை உறுதிப்படுத்த மற்றும் குறிப்பிட்ட நிபந்தனை (Condition) உண்மையாக இருந்தால் மட்டும் ஒரு செயல்பாட்டை செய்ய If Statement-ஐ பயன்படுத்துகின்றனர்.",
+
   syntax: `if(condition){
 
     // Code to be executed
@@ -491,13 +493,54 @@ Modulus : 0`,
 
     public static void main(String[] args) {
 
-       double attendance = 86;
-       if(attendance >= 75){
-       System.out.println("Eligible for Semester Exam");
+        String studentName = "Deepak";
+        double attendance = 86;
 
-}
+        System.out.println("Student Name : " + studentName);
+        System.out.println("Attendance : " + attendance + "%");
+
+        if(attendance >= 75){
+
+            System.out.println("Eligible for Semester Examination");
+
+        }
+
+    }
 
 }`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Line 5: Stores the student's name in a String variable.",
+    "Line 6: Stores the attendance percentage in a double variable.",
+    "Lines 8-9: Displays the student's name and attendance.",
+    "Line 11: Checks whether the attendance is greater than or equal to 75.",
+    "Since 86 is greater than 75, the condition becomes true.",
+    "Line 13: Prints 'Eligible for Semester Examination'.",
+    "If the attendance had been less than 75, this message would not have been displayed."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: மாணவரின் பெயர் String Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 6: மாணவரின் Attendance Percentage double Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 8-9: மாணவரின் பெயர் மற்றும் Attendance திரையில் காட்டப்படுகிறது.",
+    "வரி 11: Attendance 75 அல்லது அதற்கு மேல் உள்ளதா என்று Condition சரிபார்க்கப்படுகிறது.",
+    "86 என்பது 75-ஐ விட அதிகமாக இருப்பதால் Condition True ஆகிறது.",
+    "வரி 13: 'Eligible for Semester Examination' என்ற செய்தி Console-ல் காட்டப்படுகிறது.",
+    "Attendance 75-க்கு குறைவாக இருந்தால் இந்த Message காட்டப்படாது."
+  ],
+
+  output: `Student Name : Deepak
+Attendance : 86.0%
+Eligible for Semester Examination`,
+
+  locked: true,
+
+  completed: false
+},
 
   programExplanationEnglish: [
     "Line 1: Creates a class named Main.",
