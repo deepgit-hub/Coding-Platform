@@ -1889,7 +1889,7 @@ Subject 3 : 78
 Subject 4 : 88
 Subject 5 : 95
 
-💡 Note (English)
+💡 Note 
 The five common array operations are Traversing, Searching, Updating, Inserting, and Deleting. Traversing is the most frequently used operation and is usually performed using loops.
 
 💡 குறிப்பு (Tamil)
