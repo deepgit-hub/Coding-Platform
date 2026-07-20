@@ -1385,15 +1385,108 @@ Pattern Printing என்பது Nested Loop-ன் மிகவும் ப
 
   completed: false
 },
-  {
-    id: 15,
-    title: "Break Statement",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 15,
+
+  title: "Break Statement",
+
+  englishDefinition:
+    "The Break Statement is used to immediately terminate a loop or switch statement. When the break statement is executed, the control exits the loop or switch and continues with the next statement after it.",
+
+  tamilDefinition:
+    "Break Statement என்பது Loop அல்லது Switch Statement-ஐ உடனடியாக நிறுத்த பயன்படுகிறது. Break Statement இயங்கியவுடன் Loop அல்லது Switch முடிவடைந்து, அதற்குப் பிறகு உள்ள Statement-இல் இருந்து Program தொடர்ந்து இயங்கும்.",
+
+  realWorldUsage:
+    "Developers use the Break Statement to stop searching once the required data is found, terminate loops after detecting an error, exit menu-driven programs, and improve program efficiency by avoiding unnecessary iterations.",
+
+  realWorldUsageTamil:
+    "Developers தேவையான தகவல் கிடைத்தவுடன் Search-ஐ நிறுத்த, Error கண்டறியப்பட்டவுடன் Loop-ஐ முடிக்க, Menu Program-களில் வெளியேற (Exit) மற்றும் தேவையில்லாத Iteration-களை தவிர்த்து Program-ன் செயல்திறனை (Performance) அதிகரிக்க Break Statement-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `for(initialization; condition; increment){
+
+    if(condition){
+
+        break;
+
+    }
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "break → Immediately terminates the current loop or switch statement.",
+    "When break executes, the remaining statements inside the loop are skipped.",
+    "Program execution continues with the first statement after the loop.",
+    "It is commonly used with if statements inside loops."
+  ],
+
+  syntaxExplanationTamil: [
+    "break → தற்போதைய Loop அல்லது Switch Statement-ஐ உடனடியாக நிறுத்துகிறது.",
+    "break இயங்கியவுடன் Loop-க்குள் இருக்கும் மீதமுள்ள Statements இயக்கப்படாது.",
+    "Program Loop-க்கு அடுத்துள்ள Statement-இல் இருந்து தொடர்ந்து இயங்கும்.",
+    "பொதுவாக Loop-க்குள் இருக்கும் If Statement உடன் Break பயன்படுத்தப்படுகிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        for(int day = 1; day <= 5; day++){
+
+            if(day == 4){
+
+                System.out.println("Day " + day + " : Absent");
+                break;
+
+            }
+
+            System.out.println("Day " + day + " : Present");
+
+        }
+
+        System.out.println("Attendance checking stopped.");
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Line 5: The for loop starts from Day 1 and continues until Day 5.",
+    "Line 7: Checks whether the current day is Day 4.",
+    "When Day becomes 4, 'Absent' is displayed.",
+    "Line 10: The break statement immediately terminates the loop.",
+    "Days after Day 4 are not processed.",
+    "Line 17: Displays the message after the loop has ended."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: For Loop Day 1 முதல் Day 5 வரை இயங்குகிறது.",
+    "வரி 7: தற்போதைய நாள் Day 4 ஆக உள்ளதா என்று சரிபார்க்கப்படுகிறது.",
+    "Day 4 வந்தவுடன் 'Absent' என்ற செய்தி காட்டப்படுகிறது.",
+    "வரி 10: Break Statement Loop-ஐ உடனடியாக நிறுத்துகிறது.",
+    "Day 5 சரிபார்க்கப்படாது.",
+    "வரி 17: Loop முடிந்த பிறகு இறுதி செய்தி Console-ல் காட்டப்படுகிறது."
+  ],
+
+  output: `Day 1 : Present
+Day 2 : Present
+Day 3 : Present
+Day 4 : Absent
+Attendance checking stopped.
+
+💡 Note (English)
+Use the Break Statement when you want to stop a loop immediately after a specific condition is met. This improves program performance by avoiding unnecessary iterations.
+
+💡 குறிப்பு (Tamil)
+ஒரு குறிப்பிட்ட Condition நிறைவேறியவுடன் Loop-ஐ உடனடியாக நிறுத்த வேண்டுமெனில் Break Statement பயன்படுத்த வேண்டும். இது தேவையில்லாத Iteration-களை தவிர்த்து Program-ன் செயல்திறனை (Performance) அதிகரிக்க உதவுகிறது.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 16,
     title: "Continue Statement",
