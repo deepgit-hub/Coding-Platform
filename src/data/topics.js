@@ -1795,7 +1795,7 @@ Subject 1 : 91
 Subject 2 : 84
 Subject 3 : 87
 
-💡 Note (English)
+💡 Note 
 A Two-Dimensional Array stores data in rows and columns. The first index represents the row, and the second index represents the column. Nested loops are commonly used to access all elements.
 
 💡 குறிப்பு 
