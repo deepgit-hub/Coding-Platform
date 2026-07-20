@@ -1074,15 +1074,118 @@ A While Loop is best used when the number of repetitions is not known in advance
 
   completed: false
 },
-  {
-    id: 12,
-    title: "Do While Loop",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+ {
+  id: 12,
+
+  title: "Do While Loop",
+
+  englishDefinition:
+    "A Do While Loop is used to execute a block of code at least once before checking the condition. After the first execution, the condition is checked. If it is true, the loop continues; otherwise, it stops.",
+
+  tamilDefinition:
+    "Do While Loop என்பது முதலில் ஒரு முறை Code-ஐ இயக்கி, அதன் பிறகு Condition-ஐ சரிபார்க்கும் Loop ஆகும். Condition True ஆக இருந்தால் Loop தொடர்ந்து இயங்கும். இல்லையெனில் Loop நிறுத்தப்படும்.",
+
+  realWorldUsage:
+    "Developers use Do While Loops in menu-driven applications, ATM systems, games, and software where the menu or screen should be displayed at least once before checking whether to continue.",
+
+  realWorldUsageTamil:
+    "Developers Menu Driven Application, ATM Machine, Games மற்றும் Software Menu போன்றவற்றில் Do While Loop-ஐ பயன்படுத்துகின்றனர். Menu குறைந்தபட்சம் ஒரு முறை காட்டப்பட வேண்டும் என்ற சூழலில் இது மிகவும் பயனுள்ளதாக இருக்கும்.",
+
+  syntax: `do{
+
+    // Code to be executed
+
+}while(condition);`,
+
+  syntaxExplanationEnglish: [
+    "do → Starts the loop.",
+    "The code inside the do block executes first.",
+    "while(condition) → Checks the condition after executing the code.",
+    "If the condition is true, the loop repeats.",
+    "If the condition is false, the loop stops."
+  ],
+
+  syntaxExplanationTamil: [
+    "do → Loop-ஐ தொடங்குகிறது.",
+    "do Block-க்குள் உள்ள Code முதலில் ஒரு முறை இயங்கும்.",
+    "while(condition) → Code இயங்கிய பிறகு Condition சரிபார்க்கப்படுகிறது.",
+    "Condition True ஆக இருந்தால் Loop மீண்டும் இயங்கும்.",
+    "Condition False ஆக இருந்தால் Loop நிறுத்தப்படுகிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+        int choice = 4;
+
+        do{
+
+            System.out.println("===== Student Portal =====");
+            System.out.println("1. View Profile");
+            System.out.println("2. View Attendance");
+            System.out.println("3. View Marks");
+            System.out.println("4. Exit");
+
+            System.out.println("\\nStudent : " + studentName);
+            System.out.println("Selected Option : " + choice);
+
+            choice++;
+
+        }while(choice <= 3);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is where the program starts.",
+    "Line 5: Stores the student's name.",
+    "Line 6: Initializes the choice variable with 4.",
+    "Line 8: The do block starts executing.",
+    "Lines 10-13: Displays the Student Portal menu.",
+    "Lines 15-16: Displays the student's name and selected option.",
+    "Line 18: Increments the choice variable.",
+    "Line 20: Checks whether choice is less than or equal to 3.",
+    "Since choice becomes 5, the condition is false, so the loop stops.",
+    "Notice that the menu is displayed once even though the condition is false."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5: மாணவரின் பெயர் Variable-ல் சேமிக்கப்படுகிறது.",
+    "வரி 6: choice Variable-க்கு ஆரம்ப மதிப்பாக 4 கொடுக்கப்படுகிறது.",
+    "வரி 8: do Block முதலில் ஒரு முறை இயங்குகிறது.",
+    "வரி 10-13: Student Portal Menu Console-ல் காட்டப்படுகிறது.",
+    "வரி 15-16: மாணவரின் பெயர் மற்றும் தேர்வு செய்யப்பட்ட Option காட்டப்படுகிறது.",
+    "வரி 18: choice Variable ஒரு மதிப்பு அதிகரிக்கப்படுகிறது.",
+    "வரி 20: choice <= 3 என்று சரிபார்க்கப்படுகிறது.",
+    "choice 5 ஆக இருப்பதால் Condition False ஆகிறது.",
+    "Condition False இருந்தாலும் do Block ஒரு முறை இயங்கியிருப்பதை கவனிக்கவும். இதுவே Do While Loop-ன் முக்கிய சிறப்பாகும்."
+  ],
+
+  output: `===== Student Portal =====
+1. View Profile
+2. View Attendance
+3. View Marks
+4. Exit
+
+Student : Deepak
+Selected Option : 4
+
+💡 Note (English)
+The Do While Loop always executes at least one time because the condition is checked after executing the code.
+
+💡 குறிப்பு (Tamil)
+Do While Loop-ல் Condition பின்னர் சரிபார்க்கப்படுவதால் Code குறைந்தபட்சம் ஒரு முறை கண்டிப்பாக இயங்கும்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 13,
     title: "For Loop",
