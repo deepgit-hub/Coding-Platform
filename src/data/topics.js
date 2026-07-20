@@ -12,8 +12,10 @@ const topics = [
 
   realWorldUsage:
     "Developers use programming to build websites, mobile applications, games, banking software, hospital management systems, and many other software applications.",
-
-  syntax: `public class Main {
+  realWorldUsageTamil:
+    "Developers Programming-ஐ பயன்படுத்தி Website, Mobile Application, Banking Software, Hospital Management System, E-Commerce Website, Game போன்ற பல்வேறு Software Application-களை உருவாக்குகின்றனர்.",
+  
+    syntax: `public class Main {
 
     public static void main(String[] args) {
 
