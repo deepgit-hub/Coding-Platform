@@ -636,7 +636,7 @@ else{
   ],
 
   output: `Student Name : Deepak
-Attendance : 68.0%
+Attendance : 18.0%
 
 Not Eligible for Semester Examination`,
 
