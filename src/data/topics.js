@@ -1477,7 +1477,7 @@ Day 3 : Present
 Day 4 : Absent
 Attendance checking stopped.
 
-💡 Note (English)
+💡 Note 
 Use the Break Statement when you want to stop a loop immediately after a specific condition is met. This improves program performance by avoiding unnecessary iterations.
 
 💡 குறிப்பு (Tamil)
