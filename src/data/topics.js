@@ -542,35 +542,6 @@ Eligible for Semester Examination`,
   completed: false
 },
 
-  programExplanationEnglish: [
-    "Line 1: Creates a class named Main.",
-    "Line 3: The main() method is where the program starts execution.",
-    "Lines 5-7: Stores the student's name, age, and career aim in variables.",
-    "Line 9: Checks whether the age is greater than or equal to 18.",
-    "Since the condition is true (20 >= 18), the if block executes.",
-    "Lines 11-14: Displays the student's details and the eligibility message.",
-    "If the age had been less than 18, none of these statements would have been executed."
-  ],
-
-  programExplanationTamil: [
-    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
-    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
-    "வரி 5-7: மாணவரின் பெயர், வயது மற்றும் Career Aim ஆகியவை Variable-களில் சேமிக்கப்படுகின்றன.",
-    "வரி 9: வயது 18 அல்லது அதற்கு மேல் உள்ளதா என்று Condition சரிபார்க்கப்படுகிறது.",
-    "20 >= 18 என்பது True என்பதால் if Block இயங்குகிறது.",
-    "வரி 11-14: மாணவரின் விவரங்களும் 'You are eligible to vote.' என்ற செய்தியும் Console-ல் காட்டப்படுகின்றன.",
-    "வயது 18-க்கு குறைவாக இருந்தால் if Block-க்குள் உள்ள எந்த Code-மும் இயக்கப்படாது."
-  ],
-
-  output: `Name : Deepak
-Age : 20
-Aim : Cyber Security
-You are eligible to vote.`,
-
-  locked: true,
-
-  completed: false
-},
   {
     id: 7,
     title: "If Else",
