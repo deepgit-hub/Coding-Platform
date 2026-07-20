@@ -866,7 +866,13 @@ Result : Distinction`,
   ],
 
   output: `Student Name : Deepak
-Department : Cyber Security`,
+Department : Cyber Security
+
+💡 Note (English)
+Switch Case is the best choice when a single variable has multiple possible values. It makes the code cleaner and easier to understand than writing many if else statements.
+
+💡 குறிப்பு (Tamil)
+ஒரே Variable-க்கு பல்வேறு Values இருந்தால் Switch Case பயன்படுத்துவது சிறந்தது. இது பல if else Statement-களை எழுதுவதை விட Code-ஐ சுத்தமாகவும் புரிந்துகொள்ள எளிதாகவும் மாற்றுகிறது.`,
 
   locked: true,
 
