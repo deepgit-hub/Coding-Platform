@@ -29,7 +29,10 @@ function Topic() {
       <p>{topic.realWorldUsage}</p>
 
       <hr />
-
+      <h2>🌍 நிஜ வாழ்க்கையில் பயன்பாடு (Tamil)</h2>
+      <p>{topic.realWorldUsageTamil}</p>
+      <hr />
+      
       <h2>💻 Syntax</h2>
 
       <pre>
