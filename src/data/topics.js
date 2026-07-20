@@ -645,14 +645,110 @@ Not Eligible for Semester Examination`,
   completed: false
 },
   {
-    id: 8,
-    title: "Nested If",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 8,
+
+  title: "Nested If Statement",
+
+  englishDefinition:
+    "A Nested If Statement is an if statement placed inside another if statement. It is used when a decision depends on another decision.",
+
+  tamilDefinition:
+    "Nested If Statement என்பது ஒரு if Statement-க்குள் மற்றொரு if Statement இருப்பதாகும். ஒரு முடிவு மற்றொரு முடிவை சார்ந்திருக்கும்போது Nested If பயன்படுத்தப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers use Nested If statements when multiple conditions need to be checked in sequence, such as student result processing, ATM transactions, user authentication with role verification, and order processing systems.",
+
+  realWorldUsageTamil:
+    "Developers மாணவர்களின் முடிவுகளை (Results) கணக்கிட, ATM Transaction-களை சரிபார்க்க, User Login மற்றும் Role Verification செய்ய, Online Order Processing போன்ற பல நிலை (Multiple Level) முடிவுகளை எடுக்க Nested If Statement-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `if(condition1){
+
+    if(condition2){
+
+        // Code
+
+    }
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "The outer if statement checks the first condition.",
+    "The inner if statement executes only if the outer condition is true.",
+    "Nested If is useful when one decision depends on another decision.",
+    "The inner if statement will never execute if the outer condition is false."
+  ],
+
+  syntaxExplanationTamil: [
+    "வெளிப்புற if Statement முதலில் Condition-ஐ சரிபார்க்கிறது.",
+    "Outer Condition True ஆக இருந்தால் மட்டுமே Inner If Statement இயங்கும்.",
+    "ஒரு முடிவு மற்றொரு முடிவை சார்ந்திருந்தால் Nested If பயன்படுத்தப்படுகிறது.",
+    "Outer Condition False ஆக இருந்தால் Inner If ஒருபோதும் இயக்கப்படாது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+        double attendance = 86;
+        int marks = 91;
+
+        System.out.println("Student Name : " + studentName);
+        System.out.println("Attendance : " + attendance + "%");
+        System.out.println("Marks : " + marks);
+
+        if(attendance >= 75){
+
+            System.out.println("Eligible for Semester Examination");
+
+            if(marks >= 90){
+
+                System.out.println("Result : Distinction");
+
+            }
+
+        }
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: Program execution starts from the main() method.",
+    "Lines 5-7: Stores the student's details.",
+    "Lines 9-11: Displays the student's information.",
+    "Line 13: Checks whether the attendance is at least 75%.",
+    "Since the attendance is 86%, the outer if statement executes.",
+    "Line 17: The inner if statement checks whether the marks are 90 or above.",
+    "Since the marks are 91, the inner if statement also executes.",
+    "Line 19: Displays 'Result : Distinction'.",
+    "If the attendance had been below 75%, the inner if statement would never have been checked."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5-7: மாணவரின் தகவல்கள் Variable-களில் சேமிக்கப்படுகின்றன.",
+    "வரி 9-11: மாணவரின் விவரங்கள் Console-ல் காட்டப்படுகின்றன.",
+    "வரி 13: Attendance 75% அல்லது அதற்கு மேல் உள்ளதா என்று சரிபார்க்கப்படுகிறது.",
+    "86% இருப்பதால் Outer If Statement இயங்குகிறது.",
+    "வரி 17: Marks 90 அல்லது அதற்கு மேல் உள்ளதா என்று Inner If Statement சரிபார்க்கிறது.",
+    "91 Marks இருப்பதால் Inner If Statement-மும் இயங்குகிறது.",
+    "வரி 19: 'Result : Distinction' என்ற செய்தி Console-ல் காட்டப்படுகிறது.",
+    "Attendance 75%-க்கு குறைவாக இருந்தால் Inner If Statement ஒருபோதும் இயக்கப்படாது."
+  ],
+
+  output: `Student Name : Deepak
+Attendance : 86.0%
+Marks : 91
+Eligible for Semester Examination
+Result : Distinction`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 9,
     title: "Switch Case",
