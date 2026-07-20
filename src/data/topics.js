@@ -257,7 +257,9 @@ Aim : Cyber-Security`,
 
   realWorldUsage:
     "Developers use input to receive information such as usernames, passwords, marks, and customer details. Output is used to display messages, results, reports, and other information to users.",
-
+  realWorldUsageTamil:
+"Developers பயனரிடமிருந்து Username, Password, Mobile Number, Marks, Payment Details போன்ற தகவல்களை Input ஆகப் பெறுகின்றனர். பின்னர் Login Result, Mark, Receipt, Error Message, Report போன்ற தகவல்களை Output ஆக திரையில் காட்டுகின்றனர்.",
+  
   syntax: `import java.util.Scanner;
 
 Scanner sc = new Scanner(System.in);
