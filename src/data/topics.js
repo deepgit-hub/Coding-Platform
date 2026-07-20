@@ -1680,7 +1680,7 @@ Subject 3 : 78
 Subject 4 : 88
 Subject 5 : 95
 
-💡 Note (English)
+💡 Note
 A One-Dimensional Array stores multiple values of the same data type in a single variable. Each value is accessed using its index, starting from 0. Arrays are commonly used with loops to process all elements efficiently.
 
 💡 குறிப்பு (Tamil)
