@@ -1798,7 +1798,7 @@ Subject 3 : 87
 💡 Note (English)
 A Two-Dimensional Array stores data in rows and columns. The first index represents the row, and the second index represents the column. Nested loops are commonly used to access all elements.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Two-Dimensional Array தரவுகளை Row மற்றும் Column வடிவில் சேமிக்கிறது. முதல் Index Row-ஐ குறிக்கிறது; இரண்டாவது Index Column-ஐ குறிக்கிறது. அனைத்து Elements-ஐ அணுக பொதுவாக Nested Loop பயன்படுத்தப்படுகிறது.`,
 
   locked: true,
