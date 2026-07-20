@@ -1064,7 +1064,7 @@ Day 3 : Present
 Day 4 : Present
 Day 5 : Present
 
-💡 Note (English)
+💡 Note 
 A While Loop is best used when the number of repetitions is not known in advance. Always update the loop variable to prevent an infinite loop.
 
 💡 குறிப்பு 
