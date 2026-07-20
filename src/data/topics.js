@@ -1276,7 +1276,7 @@ Subject 3 : Pass
 Subject 4 : Pass
 Subject 5 : Pass
 
-💡 Note (English)
+💡 Note 
 Use a For Loop when you already know how many times the loop should execute. It is commonly used with arrays, lists, and fixed-size data.
 
 💡 குறிப்பு (Tamil)
