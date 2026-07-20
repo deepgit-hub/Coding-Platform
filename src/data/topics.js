@@ -879,14 +879,99 @@ Switch Case is the best choice when a single variable has multiple possible valu
   completed: false
 },
   {
-    id: 10,
-    title: "Ternary Operator",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 10,
+
+  title: "Ternary Operator",
+
+  englishDefinition:
+    "The Ternary Operator is a shorthand version of the if else statement. It evaluates a condition and returns one value if the condition is true and another value if the condition is false.",
+
+  tamilDefinition:
+    "Ternary Operator என்பது If Else Statement-ன் சுருக்கமான (Short Form) வடிவமாகும். இது ஒரு Condition-ஐ சரிபார்த்து, அது True ஆக இருந்தால் ஒரு மதிப்பையும், False ஆக இருந்தால் மற்றொரு மதிப்பையும் வழங்குகிறது.",
+
+  realWorldUsage:
+    "Developers use the Ternary Operator to write simple decision-making logic in a shorter and cleaner way. It is commonly used for displaying status messages, assigning values, and updating the user interface.",
+
+  realWorldUsageTamil:
+    "Developers சிறிய முடிவுகளை (Simple Decisions) எடுக்க Ternary Operator-ஐ பயன்படுத்துகின்றனர். Status Message காட்டுதல், Value Assign செய்தல் மற்றும் User Interface-ல் தகவல்களை சுருக்கமாக எழுதுவதற்கு இது அதிகமாக பயன்படுத்தப்படுகிறது.",
+
+  syntax: `variable = (condition) ? valueIfTrue : valueIfFalse;`,
+
+  syntaxExplanationEnglish: [
+    "condition → The condition to be checked.",
+    "? → Executes the value before ':' when the condition is true.",
+    ": → Separates the true and false values.",
+    "valueIfTrue → Returned if the condition is true.",
+    "valueIfFalse → Returned if the condition is false.",
+    "The Ternary Operator is suitable for simple if else conditions."
+  ],
+
+  syntaxExplanationTamil: [
+    "condition → சரிபார்க்க வேண்டிய Condition.",
+    "? → Condition True ஆக இருந்தால் ':'-க்கு முன் உள்ள Value தேர்வு செய்யப்படும்.",
+    ": → True மற்றும் False Value-களை பிரிக்கிறது.",
+    "valueIfTrue → Condition True ஆக இருந்தால் இந்த Value கிடைக்கும்.",
+    "valueIfFalse → Condition False ஆக இருந்தால் இந்த Value கிடைக்கும்.",
+    "சிறிய If Else Logic-களுக்கு Ternary Operator பயன்படுத்தப்படுகிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    public static void main(String[] args) {
+
+        String studentName = "Deepak";
+        double attendance = 86;
+
+        System.out.println("Student Name : " + studentName);
+        System.out.println("Attendance : " + attendance + "%");
+
+        String result = (attendance >= 75)
+                ? "Eligible for Semester Examination"
+                : "Not Eligible for Semester Examination";
+
+        System.out.println(result);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Line 3: The main() method is the starting point of the Java program.",
+    "Lines 5-6: Stores the student's name and attendance.",
+    "Lines 8-9: Displays the student's details.",
+    "Lines 11-13: The Ternary Operator checks whether the attendance is at least 75%.",
+    "If the condition is true, 'Eligible for Semester Examination' is assigned to the result variable.",
+    "If the condition is false, 'Not Eligible for Semester Examination' is assigned.",
+    "Line 15: Displays the final result."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 5-6: மாணவரின் பெயர் மற்றும் Attendance Variable-களில் சேமிக்கப்படுகின்றன.",
+    "வரி 8-9: மாணவரின் தகவல்கள் Console-ல் காட்டப்படுகின்றன.",
+    "வரி 11-13: Attendance 75 அல்லது அதற்கு மேல் உள்ளதா என்று Ternary Operator மூலம் சரிபார்க்கப்படுகிறது.",
+    "Condition True ஆக இருந்தால் 'Eligible for Semester Examination' என்ற Value result Variable-ல் சேமிக்கப்படுகிறது.",
+    "Condition False ஆக இருந்தால் 'Not Eligible for Semester Examination' என்ற Value சேமிக்கப்படுகிறது.",
+    "வரி 15: இறுதி முடிவு Console-ல் காட்டப்படுகிறது."
+  ],
+
+  output: `Student Name : Deepak
+Attendance : 86.0%
+
+Eligible for Semester Examination
+
+💡 Note
+Use the Ternary Operator only for simple if else conditions. If the logic becomes complex, using an if else statement makes the code easier to read and maintain.
+
+💡 குறிப்பு
+சிறிய If Else Condition-களுக்கு மட்டும் Ternary Operator-ஐ பயன்படுத்துங்கள். Logic சிக்கலாக (Complex) இருந்தால் If Else Statement பயன்படுத்துவது Code-ஐ படிக்கவும் பராமரிக்கவும் (Maintain) எளிதாக இருக்கும்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 11,
     title: "While Loop",
