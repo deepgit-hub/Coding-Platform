@@ -1587,7 +1587,7 @@ Attendance checking completed.
 💡 Note 
 Use the Continue Statement when you want to skip only the current iteration and continue executing the remaining iterations of the loop.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Loop-ஐ நிறுத்தாமல், தற்போதைய Iteration-ஐ மட்டும் Skip செய்து அடுத்த Iteration-ஐ தொடர வேண்டுமெனில் Continue Statement பயன்படுத்த வேண்டும்.`,
 
   locked: true,
