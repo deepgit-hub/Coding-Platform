@@ -1394,7 +1394,7 @@ Student 3
    Day 4 : Present
    Day 5 : Present
 
-💡 Note (English)
+💡 Note 
 Use Nested Loops when one loop needs to run completely for every iteration of another loop. They are commonly used with tables, matrices, and two-dimensional arrays.
 
 💡 குறிப்பு (Tamil)
