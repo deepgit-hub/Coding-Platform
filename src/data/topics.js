@@ -464,7 +464,7 @@ Modulus : 0`,
   realWorldUsage:
     "Developers use if statements to make decisions such as checking login credentials, verifying marks, validating payments, checking account balance, and controlling access to different features in an application.",
   realWorldUsageTamil:
-"Developers Login வெற்றிகரமாக உள்ளதா என்பதை சரிபார்க்க, மாணவர் தேர்ச்சி பெற்றாரா என்பதை கண்டறிய, Bank Account-ல் போதுமான இருப்பு உள்ளதா என்பதை சரிபார்க்க, Payment வெற்றிகரமாக முடிந்ததா என்பதை உறுதிப்படுத்த மற்றும் குறிப்பிட்ட நிபந்தனை (Condition) உண்மையாக இருந்தால் மட்டும் ஒரு செயல்பாட்டை செய்ய If Statement-ஐ பயன்படுத்துகின்றனர்.",    
+ "Developers Login வெற்றிகரமாக உள்ளதா என்பதை சரிபார்க்க, மாணவர் தேர்ச்சி பெற்றாரா என்பதை கண்டறிய, Bank Account-ல் போதுமான இருப்பு உள்ளதா என்பதை சரிபார்க்க, Payment வெற்றிகரமாக முடிந்ததா என்பதை உறுதிப்படுத்த மற்றும் குறிப்பிட்ட நிபந்தனை (Condition) உண்மையாக இருந்தால் மட்டும் ஒரு செயல்பாட்டை செய்ய If Statement-ஐ பயன்படுத்துகின்றனர்.",    
   syntax: `if(condition){
 
     // Code to be executed
