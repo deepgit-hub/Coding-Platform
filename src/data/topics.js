@@ -2670,7 +2670,238 @@ This example demonstrates Single Inheritance. Java also supports other inheritan
 
   completed: false
 },
+{
+  id: 28,
 
+  title: "Single Inheritance",
+
+  englishDefinition:
+    "Single Inheritance is a type of inheritance in which one child class inherits the properties and methods of one parent class.",
+
+  tamilDefinition:
+    "Single Inheritance என்பது ஒரு Child Class, ஒரு Parent Class-இலிருந்து மட்டும் Properties மற்றும் Methods-ஐ பெறும் Inheritance வகையாகும்.",
+
+  realWorldUsage:
+    "Developers use Single Inheritance to extend an existing class without rewriting common code. For example, a GraduateStudent class can inherit common student details from the Student class.",
+
+  realWorldUsageTamil:
+    "ஏற்கனவே உள்ள Class-ன் பொதுவான Code-ஐ மீண்டும் எழுதாமல் பயன்படுத்த Developers Single Inheritance-ஐ பயன்படுத்துகின்றனர். உதாரணமாக, GraduateStudent Class ஆனது Student Class-ல் உள்ள பொதுவான தகவல்களை பெற முடியும்.",
+
+  syntax: `class ParentClass{
+
+}
+
+class ChildClass extends ParentClass{
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "ParentClass is the class whose properties and methods are inherited.",
+    "extends is the keyword used to inherit another class.",
+    "ChildClass inherits the variables and methods of ParentClass.",
+    "Only one parent class is inherited in Single Inheritance."
+  ],
+
+  syntaxExplanationTamil: [
+    "ParentClass என்பது அதன் Properties மற்றும் Methods மற்றொரு Class-க்கு வழங்கும் Class ஆகும்.",
+    "extends என்பது மற்றொரு Class-ஐ Inherit செய்ய பயன்படும் Keyword ஆகும்.",
+    "ChildClass, ParentClass-ன் Variables மற்றும் Methods-ஐ பெறுகிறது.",
+    "Single Inheritance-ல் ஒரு Parent Class மட்டும் Inherit செய்யப்படும்."
+  ],
+
+  exampleProgram: `class Student{
+
+    String name = "Deepak";
+    int age = 20;
+
+    void displayStudent(){
+
+        System.out.println("Student Name : " + name);
+        System.out.println("Age : " + age);
+
+    }
+
+}
+
+class GraduateStudent extends Student{
+
+    String specialization = "Cyber Security";
+
+    void displaySpecialization(){
+
+        System.out.println("Specialization : " + specialization);
+
+    }
+
+}
+
+public class Main{
+
+    public static void main(String[] args){
+
+        GraduateStudent student = new GraduateStudent();
+
+        student.displayStudent();
+
+        student.displaySpecialization();
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates the Student parent class.",
+    "Lines 3-4: Declares the variables name and age.",
+    "Lines 6-11: Creates the displayStudent() method.",
+    "Line 17: Creates the GraduateStudent child class using the extends keyword.",
+    "Line 19: Declares the specialization variable.",
+    "Lines 21-25: Creates the displaySpecialization() method.",
+    "Line 33: Creates an object of GraduateStudent.",
+    "Line 35: Calls the inherited displayStudent() method from the Student class.",
+    "Line 37: Calls the displaySpecialization() method of the GraduateStudent class.",
+    "The child class can access both its own members and the inherited members of the parent class."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Student என்ற Parent Class உருவாக்கப்படுகிறது.",
+    "வரி 3-4: name மற்றும் age என்ற Variables அறிவிக்கப்படுகின்றன.",
+    "வரி 6-11: displayStudent() Method உருவாக்கப்படுகிறது.",
+    "வரி 17: extends Keyword-ஐ பயன்படுத்தி GraduateStudent என்ற Child Class உருவாக்கப்படுகிறது.",
+    "வரி 19: specialization என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 21-25: displaySpecialization() Method உருவாக்கப்படுகிறது.",
+    "வரி 33: GraduateStudent Object உருவாக்கப்படுகிறது.",
+    "வரி 35: Parent Class-ல் உள்ள displayStudent() Method அழைக்கப்படுகிறது.",
+    "வரி 37: Child Class-ல் உள்ள displaySpecialization() Method அழைக்கப்படுகிறது.",
+    "Child Class தனது சொந்த உறுப்பினர்களையும் (Members), Parent Class-ல் இருந்து பெறப்பட்ட உறுப்பினர்களையும் பயன்படுத்த முடியும்."
+  ],
+
+  output: `Student Name : Deepak
+Age : 20
+Specialization : Cyber Security
+
+💡 Note (English)
+In Single Inheritance, one child class inherits the properties and methods of only one parent class. This improves code reusability and reduces code duplication.
+
+💡 குறிப்பு (Tamil)
+Single Inheritance-ல் ஒரு Child Class, ஒரு Parent Class-இலிருந்து மட்டுமே Properties மற்றும் Methods-ஐ பெறுகிறது. இதனால் ஒரே Code-ஐ மீண்டும் எழுத வேண்டிய அவசியம் குறைகிறது மற்றும் Code Reusability அதிகரிக்கிறது.`,
+
+  locked: true,
+
+  completed: false
+},
+{
+  id: 29,
+
+  title: "Multilevel Inheritance",
+
+  englishDefinition:
+    "Multilevel Inheritance is a type of inheritance in which one class inherits from another class, and another class further inherits from it. This forms a chain of inheritance.",
+
+  tamilDefinition:
+    "Multilevel Inheritance என்பது ஒரு Class மற்றொரு Class-இலிருந்து Inherit செய்து, அதிலிருந்து மற்றொரு Class மீண்டும் Inherit செய்வது ஆகும். இதனால் ஒரு Inheritance Chain உருவாகிறது.",
+
+  realWorldUsage:
+    "Developers use Multilevel Inheritance to build applications with multiple levels of specialization. For example, a GraduateStudent can inherit common student details, and a ResearchStudent can further inherit graduate student features.",
+
+  realWorldUsageTamil:
+    "பல நிலைகளில் (Multiple Levels) தனிப்பட்ட அம்சங்களை உருவாக்க Developers Multilevel Inheritance-ஐ பயன்படுத்துகின்றனர். உதாரணமாக, GraduateStudent என்பது Student-இலிருந்து தகவல்களை பெறும்; ResearchStudent என்பது GraduateStudent-இலிருந்து மேலும் தகவல்களை பெறும்.",
+
+  syntax: `class ParentClass{
+
+}
+
+class ChildClass extends ParentClass{
+
+}
+
+class GrandChildClass extends ChildClass{
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "ParentClass is the base class.",
+    "ChildClass inherits the properties and methods of ParentClass.",
+    "GrandChildClass inherits the properties and methods of ChildClass.",
+    "This creates a chain of inheritance known as Multilevel Inheritance."
+  ],
+
+  syntaxExplanationTamil: [
+    "ParentClass என்பது அடிப்படை (Base) Class ஆகும்.",
+    "ChildClass, ParentClass-ன் Properties மற்றும் Methods-ஐ பெறுகிறது.",
+    "GrandChildClass, ChildClass-ன் Properties மற்றும் Methods-ஐ பெறுகிறது.",
+    "இந்த தொடர் (Chain) அமைப்பு Multilevel Inheritance எனப்படுகிறது."
+  ],
+
+  exampleProgram: `class Student{
+
+    String name = "Deepak";
+
+}
+
+class GraduateStudent extends Student{
+
+    String specialization = "Cyber Security";
+
+}
+
+class ResearchStudent extends GraduateStudent{
+
+    String researchTopic = "Network Security";
+
+}
+
+public class Main{
+
+    public static void main(String[] args){
+
+        ResearchStudent student = new ResearchStudent();
+
+        System.out.println("Name : " + student.name);
+        System.out.println("Specialization : " + student.specialization);
+        System.out.println("Research Topic : " + student.researchTopic);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates the Student parent class.",
+    "Line 3: Declares the name variable.",
+    "Line 7: GraduateStudent inherits from Student.",
+    "Line 9: Declares the specialization variable.",
+    "Line 13: ResearchStudent inherits from GraduateStudent.",
+    "Line 15: Declares the researchTopic variable.",
+    "Line 23: Creates a ResearchStudent object.",
+    "Lines 25-27: Accesses variables inherited from Student, GraduateStudent, and ResearchStudent.",
+    "ResearchStudent can access members from all the classes in the inheritance chain."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Student என்ற Parent Class உருவாக்கப்படுகிறது.",
+    "வரி 3: name என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 7: GraduateStudent, Student Class-இலிருந்து Inherit செய்கிறது.",
+    "வரி 9: specialization என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 13: ResearchStudent, GraduateStudent Class-இலிருந்து Inherit செய்கிறது.",
+    "வரி 15: researchTopic என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 23: ResearchStudent Object உருவாக்கப்படுகிறது.",
+    "வரி 25-27: Student, GraduateStudent மற்றும் ResearchStudent Classes-ல் உள்ள Variables அனைத்தும் பயன்படுத்தப்படுகின்றன.",
+    "ResearchStudent, Inheritance Chain-ல் உள்ள அனைத்து Classes-ன் உறுப்பினர்களையும் (Members) அணுக முடியும்."
+  ],
+
+  output: `Name : Deepak
+Specialization : Cyber Security
+Research Topic : Network Security
+
+💡 Note (English)
+In Multilevel Inheritance, one class inherits from another class, which itself inherits from another class. This creates a chain of inheritance and allows the last class to access the features of all its parent classes.
+
+💡 குறிப்பு (Tamil)
+Multilevel Inheritance-ல் ஒரு Class மற்றொரு Class-இலிருந்து Inherit செய்து, அந்த Class மீண்டும் மற்றொரு Class-இலிருந்து Inherit செய்கிறது. இதனால் ஒரு Inheritance Chain உருவாகிறது. கடைசி Child Class, அதற்கு முந்தைய அனைத்து Parent Classes-ன் அம்சங்களையும் பயன்படுத்த முடியும்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 28,
     title: "Exception Handling",
