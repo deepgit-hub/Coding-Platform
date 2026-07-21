@@ -3138,7 +3138,7 @@ public class Main{
   output: `Playing Football
 Performing Cultural Dance
 
-💡 Note (English)
+💡 Note 
 Java does not support Multiple Inheritance using classes because it can create ambiguity (Diamond Problem). Instead, Java allows a class to implement multiple interfaces.
 
 💡 குறிப்பு (Tamil)
