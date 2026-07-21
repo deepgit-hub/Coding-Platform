@@ -2094,8 +2094,106 @@ A Return Type specifies what type of value a method sends back to the caller. If
   completed: false
 },
   
+{
+  id: 22,
 
-,
+  title: "Method Overloading",
+
+  englishDefinition:
+    "Method Overloading is the process of creating multiple methods with the same name but different parameters. The compiler determines which method to call based on the number or type of arguments passed.",
+
+  tamilDefinition:
+    "Method Overloading என்பது ஒரே பெயரில் (Same Method Name) பல Methods-ஐ வெவ்வேறு Parameters-உடன் உருவாக்கும் செயல்முறையாகும். எந்த Method அழைக்கப்பட வேண்டும் என்பதை அனுப்பப்படும் Arguments-ன் எண்ணிக்கை அல்லது Data Type அடிப்படையில் Compiler தீர்மானிக்கிறது.",
+
+  realWorldUsage:
+    "Developers use Method Overloading when the same operation needs to be performed with different numbers or types of inputs, such as calculating totals, searching records, processing payments, and validating user information.",
+
+  realWorldUsageTamil:
+    "Developers ஒரே செயல்பாட்டை (Operation) வெவ்வேறு எண்ணிக்கையிலான அல்லது வெவ்வேறு வகையான Input-களுடன் செய்ய வேண்டிய சூழலில் Method Overloading-ஐ பயன்படுத்துகின்றனர். உதாரணமாக Total கணக்கிடுதல், Records தேடுதல், Payment செயலாக்குதல் மற்றும் User தகவல்களை சரிபார்த்தல் போன்றவற்றில் பயன்படுத்தப்படுகிறது.",
+
+  syntax: `returnType methodName(parameter1){
+
+    // Code
+
+}
+
+returnType methodName(parameter1, parameter2){
+
+    // Code
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "The method name remains the same.",
+    "The parameter list must be different.",
+    "The difference can be in the number or type of parameters.",
+    "The compiler automatically selects the appropriate method."
+  ],
+
+  syntaxExplanationTamil: [
+    "Method Name ஒரே மாதிரியாக இருக்கும்.",
+    "Parameters மட்டும் வேறுபட்டிருக்க வேண்டும்.",
+    "Parameters-ன் எண்ணிக்கை அல்லது Data Type வேறுபடலாம்.",
+    "தேவையான Method-ஐ Compiler தானாக தேர்வு செய்கிறது."
+  ],
+
+  exampleProgram: `public class Main {
+
+    static int calculateTotal(int mark1, int mark2){
+
+        return mark1 + mark2;
+
+    }
+
+    static int calculateTotal(int mark1, int mark2, int mark3){
+
+        return mark1 + mark2 + mark3;
+
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("Total Marks (2 Subjects) : " + calculateTotal(85, 90));
+
+        System.out.println("Total Marks (3 Subjects) : " + calculateTotal(85, 90, 78));
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Main.",
+    "Lines 3-7: Creates the first calculateTotal() method that accepts two parameters.",
+    "Lines 9-13: Creates another calculateTotal() method with the same name but three parameters.",
+    "The two methods have the same name but different parameter lists.",
+    "Line 17: Calls the first method because two arguments are passed.",
+    "Line 19: Calls the second method because three arguments are passed.",
+    "The compiler automatically selects the correct overloaded method."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Main என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3-7: இரண்டு Parameters-ஐ பெறும் calculateTotal() Method உருவாக்கப்படுகிறது.",
+    "வரி 9-13: அதே பெயரில் மூன்று Parameters-ஐ பெறும் மற்றொரு calculateTotal() Method உருவாக்கப்படுகிறது.",
+    "இரண்டு Methods-க்கும் ஒரே பெயர் இருந்தாலும் Parameters வேறுபடுகின்றன.",
+    "வரி 17: இரண்டு Arguments அனுப்பப்பட்டதால் முதல் Method அழைக்கப்படுகிறது.",
+    "வரி 19: மூன்று Arguments அனுப்பப்பட்டதால் இரண்டாவது Method அழைக்கப்படுகிறது.",
+    "சரியான Method-ஐ Compiler தானாக தேர்வு செய்கிறது."
+  ],
+
+  output: `Total Marks (2 Subjects) : 175
+Total Marks (3 Subjects) : 253
+
+💡 Note (English)
+Method Overloading allows multiple methods to have the same name as long as their parameter lists are different. It improves code readability and reusability.
+
+💡 குறிப்பு (Tamil)
+Method Overloading-ல் ஒரே பெயரில் பல Methods இருக்கலாம். ஆனால் அவற்றின் Parameters வேறுபட்டிருக்க வேண்டும். இது Code-ஐ படிக்கவும் மீண்டும் பயன்படுத்தவும் எளிதாக்குகிறது.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 23,
     title: "Class",
