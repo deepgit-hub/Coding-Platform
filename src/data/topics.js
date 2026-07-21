@@ -2663,7 +2663,7 @@ Specialization : Cyber Security
 💡 Note (English)
 This example demonstrates Single Inheritance. Java also supports other inheritance types such as Multilevel and Hierarchical Inheritance. These will be discussed in the next topic.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 இந்த Program Single Inheritance-ஐ விளக்குகிறது. Java-வில் Multilevel மற்றும் Hierarchical Inheritance போன்ற பிற வகைகளும் உள்ளன. அவற்றைப் பற்றி அடுத்த Topic-ல் பார்க்கலாம்.`,
 
   locked: true,
