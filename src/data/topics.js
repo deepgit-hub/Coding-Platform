@@ -3462,7 +3462,7 @@ catch(ExceptionType e){
   output: `Cannot divide by zero.
 Program Executed Successfully.
 
-💡 Note (English)
+💡 Note 
 The try block contains risky code that may generate an exception. If an exception occurs, Java transfers control to the matching catch block, allowing the program to continue without crashing.
 
 💡 குறிப்பு (Tamil)
