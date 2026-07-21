@@ -2470,7 +2470,7 @@ Department : Cyber Security
 💡 Note 
 A Constructor is automatically executed when an object is created. Its main purpose is to initialize the object's data. Unlike methods, constructors do not have a return type.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Object உருவாக்கப்படும் போது Constructor தானாகவே இயங்குகிறது. இதன் முக்கிய நோக்கம் Object-ன் ஆரம்ப தரவுகளை (Initial Data) அமைப்பதாகும். Methods போல Constructor-க்கு Return Type இருக்காது.`,
 
   locked: true,
