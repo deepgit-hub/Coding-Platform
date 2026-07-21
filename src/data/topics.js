@@ -2670,15 +2670,7 @@ This example demonstrates Single Inheritance. Java also supports other inheritan
 
   completed: false
 },
-  {
-    id: 28,
-    title: "Exception Handling",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  
   {
     id: 29,
     title: "Try Catch",
