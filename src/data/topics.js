@@ -3141,7 +3141,7 @@ Performing Cultural Dance
 💡 Note 
 Java does not support Multiple Inheritance using classes because it can create ambiguity (Diamond Problem). Instead, Java allows a class to implement multiple interfaces.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு
 Java-வில் Classes மூலம் Multiple Inheritance ஆதரிக்கப்படாது. ஏனெனில் அது Diamond Problem போன்ற குழப்பங்களை ஏற்படுத்தும். அதற்கு பதிலாக Java, ஒரு Class பல Interfaces-ஐ Implement செய்ய அனுமதிக்கிறது.`,
 
   locked: true,
