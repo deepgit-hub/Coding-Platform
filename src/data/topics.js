@@ -3020,7 +3020,7 @@ Semester : 3
 💡 Note 
 In Hierarchical Inheritance, multiple child classes inherit the properties and methods of the same parent class. Each child class can also have its own unique variables and methods.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Hierarchical Inheritance-ல் பல Child Classes ஒரே Parent Class-இலிருந்து Properties மற்றும் Methods-ஐ பெறுகின்றன. ஒவ்வொரு Child Class-மும் தனது சொந்த Variables மற்றும் Methods-ஐ கூட கொண்டிருக்கலாம்.`,
 
   locked: true,
