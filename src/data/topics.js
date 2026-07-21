@@ -3377,14 +3377,101 @@ Exception Handling மூலம் Program திடீரென நிற்க
   completed: false
 },
   {
-    id: 34,
-    title: "Try Catch",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  id: 34,
+
+  title: "Try Catch",
+
+  englishDefinition:
+    "The try and catch blocks are used together to handle exceptions in Java. The try block contains code that may generate an exception, and the catch block handles the exception if it occurs.",
+
+  tamilDefinition:
+    "Java-வில் try மற்றும் catch Blocks ஒன்றாக பயன்படுத்தப்பட்டு Exceptions-ஐ கையாளுகின்றன. try Block-ல் Exception ஏற்படக்கூடிய Code எழுதப்படுகிறது. Exception ஏற்பட்டால் catch Block அதை கையாளும்.",
+
+  realWorldUsage:
+    "Developers use try and catch blocks to prevent applications from crashing when unexpected errors occur, such as invalid input, division by zero, or file access errors.",
+
+  realWorldUsageTamil:
+    "தவறான Input, பூஜ்ஜியத்தால் வகுத்தல் (Division by Zero), அல்லது File Access Error போன்ற எதிர்பாராத பிழைகளால் Application Crash ஆகாமல் இருக்க Developers try மற்றும் catch Blocks-ஐ பயன்படுத்துகின்றனர்.",
+
+  syntax: `try{
+
+    // Code that may cause an exception
+
+}
+catch(ExceptionType e){
+
+    // Code to handle the exception
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "The try block contains code that may generate an exception.",
+    "If an exception occurs, Java immediately stops executing the remaining statements inside the try block.",
+    "The catch block receives and handles the exception.",
+    "If no exception occurs, the catch block is skipped."
+  ],
+
+  syntaxExplanationTamil: [
+    "try Block-ல் Exception ஏற்படக்கூடிய Code எழுதப்படுகிறது.",
+    "Exception ஏற்பட்டால், try Block-ல் உள்ள மீதமுள்ள Statements செயல்படாது.",
+    "catch Block Exception-ஐ பெற்று கையாளும்.",
+    "Exception ஏற்படவில்லை என்றால் catch Block செயல்படாது."
+  ],
+
+  exampleProgram: `public class Main{
+
+    public static void main(String[] args){
+
+        try{
+
+            int result = 20 / 0;
+
+            System.out.println(result);
+
+        }
+        catch(ArithmeticException e){
+
+            System.out.println("Cannot divide by zero.");
+
+        }
+
+        System.out.println("Program Executed Successfully.");
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 5: The try block begins.",
+    "Line 7: Dividing 20 by 0 generates an ArithmeticException.",
+    "Line 9: This statement is skipped because an exception occurred.",
+    "Line 13: The catch block catches the ArithmeticException.",
+    "Line 15: Displays an error message instead of terminating the program.",
+    "Line 19: The program continues executing normally after the exception is handled."
+  ],
+
+  programExplanationTamil: [
+    "வரி 5: try Block தொடங்குகிறது.",
+    "வரி 7: 20-ஐ 0-ஆல் வகுப்பதால் ArithmeticException ஏற்படுகிறது.",
+    "வரி 9: Exception ஏற்பட்டதால் இந்த Statement செயல்படாது.",
+    "வரி 13: catch Block, ArithmeticException-ஐ கையாளுகிறது.",
+    "வரி 15: Program நிற்காமல் Error Message-ஐ காட்டுகிறது.",
+    "வரி 19: Exception கையாளப்பட்ட பிறகும் Program தொடர்ந்து இயங்குகிறது."
+  ],
+
+  output: `Cannot divide by zero.
+Program Executed Successfully.
+
+💡 Note (English)
+The try block contains risky code that may generate an exception. If an exception occurs, Java transfers control to the matching catch block, allowing the program to continue without crashing.
+
+💡 குறிப்பு (Tamil)
+try Block-ல் Exception ஏற்படக்கூடிய Code இருக்கும். Exception ஏற்பட்டால் Java, அதற்கான catch Block-க்கு Control-ஐ மாற்றும். இதனால் Program Crash ஆகாமல் தொடர்ந்து இயங்கும்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 35,
     title: "Finally",
