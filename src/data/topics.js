@@ -3465,7 +3465,7 @@ Program Executed Successfully.
 💡 Note 
 The try block contains risky code that may generate an exception. If an exception occurs, Java transfers control to the matching catch block, allowing the program to continue without crashing.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 try Block-ல் Exception ஏற்படக்கூடிய Code இருக்கும். Exception ஏற்பட்டால் Java, அதற்கான catch Block-க்கு Control-ஐ மாற்றும். இதனால் Program Crash ஆகாமல் தொடர்ந்து இயங்கும்.`,
 
   locked: true,
