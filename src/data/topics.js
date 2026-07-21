@@ -2467,7 +2467,7 @@ public class Main{
 Age : 20
 Department : Cyber Security
 
-💡 Note (English)
+💡 Note 
 A Constructor is automatically executed when an object is created. Its main purpose is to initialize the object's data. Unlike methods, constructors do not have a return type.
 
 💡 குறிப்பு (Tamil)
