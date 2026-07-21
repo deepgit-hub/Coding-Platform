@@ -3365,7 +3365,7 @@ catch(Exception e){
   output: `Cannot divide by zero.
 Program Continues Successfully.
 
-💡 Note (English)
+💡 Note 
 Exception Handling prevents a program from terminating unexpectedly. Instead of crashing, the program can handle the error and continue its execution.
 
 💡 குறிப்பு (Tamil)
