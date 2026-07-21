@@ -2278,7 +2278,7 @@ public class Main{
 💡 Note 
 A Class is only a blueprint. It does not occupy memory for its variables until an object is created. Objects are created from a class.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Class என்பது ஒரு Blueprint மட்டுமே. அதிலிருந்து Object உருவாக்கப்படும் வரை அதன் Variables-க்கு Memory ஒதுக்கப்படாது. Class-இல் இருந்து தான் Objects உருவாக்கப்படுகின்றன.`,
 
   locked: true,
