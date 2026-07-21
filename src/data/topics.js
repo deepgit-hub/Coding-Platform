@@ -1997,7 +1997,7 @@ Total Marks : 436
 💡 Note 
 Methods divide a program into smaller, reusable blocks. Instead of writing the same code multiple times, you can write it once and call it whenever needed.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Methods ஒரு பெரிய Program-ஐ சிறிய, மீண்டும் பயன்படுத்தக்கூடிய பகுதிகளாக பிரிக்க உதவுகின்றன. ஒரே Code-ஐ பலமுறை எழுதுவதற்கு பதிலாக, ஒருமுறை எழுதிவிட்டு தேவையான இடங்களில் அழைத்து பயன்படுத்தலாம்.`,
 
   locked: true,
