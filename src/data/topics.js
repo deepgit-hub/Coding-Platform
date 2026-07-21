@@ -3368,7 +3368,7 @@ Program Continues Successfully.
 💡 Note 
 Exception Handling prevents a program from terminating unexpectedly. Instead of crashing, the program can handle the error and continue its execution.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Exception Handling மூலம் Program திடீரென நிற்காமல் (Crash ஆகாமல்) Error-ஐ கையாள முடியும். இதனால் Program தொடர்ந்து இயங்கும்.`,
 
 
