@@ -2895,7 +2895,7 @@ Research Topic : Network Security
 💡 Note 
 In Multilevel Inheritance, one class inherits from another class, which itself inherits from another class. This creates a chain of inheritance and allows the last class to access the features of all its parent classes.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Multilevel Inheritance-ல் ஒரு Class மற்றொரு Class-இலிருந்து Inherit செய்து, அந்த Class மீண்டும் மற்றொரு Class-இலிருந்து Inherit செய்கிறது. இதனால் ஒரு Inheritance Chain உருவாகிறது. கடைசி Child Class, அதற்கு முந்தைய அனைத்து Parent Classes-ன் அம்சங்களையும் பயன்படுத்த முடியும்.`,
 
   locked: true,
