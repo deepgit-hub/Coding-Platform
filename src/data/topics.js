@@ -2477,15 +2477,7 @@ Object உருவாக்கப்படும் போது Constructor �
 
   completed: false
 },
-  {
-    id: 27,
-    title: "this Keyword",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  
   {
     id: 27,
     title: "Inheritance",
