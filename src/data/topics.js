@@ -3274,7 +3274,7 @@ Performing Cultural Dance
 💡 Note 
 Java does not support Hybrid Inheritance using classes because it may create ambiguity. Hybrid Inheritance can be implemented in Java by combining class inheritance with multiple interfaces.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Java-வில் Classes மூலம் Hybrid Inheritance ஆதரிக்கப்படாது. ஏனெனில் அது குழப்பங்களை (Ambiguity) ஏற்படுத்தும். ஆனால் ஒரு Class-ஐ Extend செய்து, பல Interfaces-ஐ Implement செய்வதன் மூலம் Hybrid Inheritance-ஐ Java-வில் செயல்படுத்த முடியும்.`,
 
   locked: true,
