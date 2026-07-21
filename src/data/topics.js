@@ -2366,7 +2366,7 @@ public class Main{
 Age : 20
 Department : Cyber Security
 
-💡 Note (English)
+💡 Note 
 An Object is created from a Class. A Class acts as a blueprint, while an Object is the actual instance that stores data and can access the class's variables and methods.
 
 💡 குறிப்பு (Tamil)
