@@ -2563,7 +2563,7 @@ public class Main{
 💡 Note 
 When an instance variable and a constructor parameter have the same name, Java gives priority to the local parameter. The this keyword is used to refer to the current object's instance variable.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Instance Variable மற்றும் Constructor Parameter இரண்டிற்கும் ஒரே பெயர் இருந்தால், Java முதலில் Constructor Parameter-ஐ பயன்படுத்தும். தற்போதைய Object-ன் Instance Variable-ஐ குறிக்க this Keyword பயன்படுத்தப்படுகிறது.`,
 
   locked: true,
