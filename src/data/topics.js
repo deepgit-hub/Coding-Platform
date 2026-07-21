@@ -3271,7 +3271,7 @@ public class Main{
 Playing Football
 Performing Cultural Dance
 
-💡 Note (English)
+💡 Note 
 Java does not support Hybrid Inheritance using classes because it may create ambiguity. Hybrid Inheritance can be implemented in Java by combining class inheritance with multiple interfaces.
 
 💡 குறிப்பு (Tamil)
