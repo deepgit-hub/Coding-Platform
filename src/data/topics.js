@@ -2285,7 +2285,97 @@ Class என்பது ஒரு Blueprint மட்டுமே. அதில
 
   completed: false
 },
- 
+  {
+  id: 24,
+
+  title: "Object",
+
+  englishDefinition:
+    "An Object is an instance of a class. It is created from a class and is used to access the variables and methods defined in that class.",
+
+  tamilDefinition:
+    "Object என்பது ஒரு Class-ன் Instance ஆகும். இது ஒரு Class-இல் இருந்து உருவாக்கப்படுகிறது. Class-ல் உள்ள Variables மற்றும் Methods-ஐ அணுகுவதற்கு Object பயன்படுத்தப்படுகிறது.",
+
+  realWorldUsage:
+    "Developers create objects to represent real-world entities such as students, employees, products, customers, and bank accounts. Each object stores its own data and can perform the actions defined in its class.",
+
+  realWorldUsageTamil:
+    "Developers Students, Employees, Products, Customers மற்றும் Bank Accounts போன்ற நிஜ உலக பொருட்களை (Real-World Entities) பிரதிநிதித்துவப்படுத்த Objects-ஐ உருவாக்குகின்றனர். ஒவ்வொரு Object-மும் தனது சொந்த Data-வை சேமித்து, Class-ல் வரையறுக்கப்பட்ட செயல்களைச் செய்ய முடியும்.",
+
+  syntax: `ClassName objectName = new ClassName();`,
+
+  syntaxExplanationEnglish: [
+    "ClassName specifies the class from which the object is created.",
+    "objectName is the name of the object.",
+    "The new keyword creates a new object.",
+    "The object can access the variables and methods of its class using the dot (.) operator."
+  ],
+
+  syntaxExplanationTamil: [
+    "ClassName என்பது எந்த Class-இல் இருந்து Object உருவாக்கப்படுகிறது என்பதை குறிப்பிடுகிறது.",
+    "objectName என்பது Object-ன் பெயர்.",
+    "new Keyword ஒரு புதிய Object-ஐ உருவாக்குகிறது.",
+    "Object, Dot (.) Operator மூலம் Class-ல் உள்ள Variables மற்றும் Methods-ஐ அணுகுகிறது."
+  ],
+
+  exampleProgram: `class Student{
+
+    String name;
+    int age;
+    String department;
+
+}
+
+public class Main{
+
+    public static void main(String[] args){
+
+        Student student1 = new Student();
+
+        student1.name = "Deepak";
+        student1.age = 20;
+        student1.department = "Cyber Security";
+
+        System.out.println("Student Name : " + student1.name);
+        System.out.println("Age : " + student1.age);
+        System.out.println("Department : " + student1.department);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates a class named Student.",
+    "Lines 3-5: Declares the variables name, age, and department.",
+    "Line 11: Program execution starts from the main() method.",
+    "Line 13: Creates an object named student1 from the Student class using the new keyword.",
+    "Lines 15-17: Assign values to the object's variables.",
+    "Lines 19-21: Access and display the object's variables using the dot (.) operator."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Student என்ற பெயரில் ஒரு Class உருவாக்கப்படுகிறது.",
+    "வரி 3-5: name, age மற்றும் department என்ற Variables அறிவிக்கப்படுகின்றன.",
+    "வரி 11: Java Program main() Method-இல் இருந்து இயங்கத் தொடங்குகிறது.",
+    "வரி 13: new Keyword-ஐ பயன்படுத்தி Student Class-இல் இருந்து student1 என்ற Object உருவாக்கப்படுகிறது.",
+    "வரி 15-17: Object-ன் Variables-க்கு Values வழங்கப்படுகின்றன.",
+    "வரி 19-21: Dot (.) Operator மூலம் Object-ன் Variables அணுகப்பட்டு Console-ல் காட்டப்படுகின்றன."
+  ],
+
+  output: `Student Name : Deepak
+Age : 20
+Department : Cyber Security
+
+💡 Note (English)
+An Object is created from a Class. A Class acts as a blueprint, while an Object is the actual instance that stores data and can access the class's variables and methods.
+
+💡 குறிப்பு (Tamil)
+Object என்பது Class-இல் இருந்து உருவாக்கப்படுகிறது. Class என்பது Blueprint ஆகும்; Object என்பது அந்த Blueprint-இல் இருந்து உருவாக்கப்பட்ட உண்மையான Instance ஆகும். Object மூலம் Class-ன் Variables மற்றும் Methods-ஐ பயன்படுத்தலாம்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 25,
     title: "Constructor",
