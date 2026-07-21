@@ -2086,7 +2086,7 @@ Marks : 95
 💡 Note 
 A Return Type specifies what type of value a method sends back to the caller. If a method does not return any value, use void as the return type.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 ஒரு Method எந்த வகையான Value-ஐ திருப்பி அனுப்புகிறது என்பதை Return Type குறிப்பிடுகிறது. Method எந்த Value-யும் திருப்பி அனுப்பவில்லை என்றால் அதன் Return Type void ஆக இருக்க வேண்டும்.`,
 
   locked: true,
