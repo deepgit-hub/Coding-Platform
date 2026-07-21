@@ -2187,7 +2187,7 @@ Total Marks (3 Subjects) : 253
 💡 Note 
 Method Overloading allows multiple methods to have the same name as long as their parameter lists are different. It improves code readability and reusability.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Method Overloading-ல் ஒரே பெயரில் பல Methods இருக்கலாம். ஆனால் அவற்றின் Parameters வேறுபட்டிருக்க வேண்டும். இது Code-ஐ படிக்கவும் மீண்டும் பயன்படுத்தவும் எளிதாக்குகிறது.`,
 
   locked: true,
