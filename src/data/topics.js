@@ -2376,15 +2376,7 @@ Object என்பது Class-இல் இருந்து உருவா�
 
   completed: false
 },
-  {
-    id: 25,
-    title: "Constructor",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  
   {
     id: 26,
     title: "this Keyword",
