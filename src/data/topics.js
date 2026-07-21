@@ -3282,7 +3282,7 @@ Java-வில் Classes மூலம் Hybrid Inheritance ஆதரிக்�
   completed: false
 },
   {
-    id: 28,
+    id: 33,
     title: "Exception Handling",
     englishDefinition: "",
     tamilDefinition: "",
@@ -3291,7 +3291,7 @@ Java-வில் Classes மூலம் Hybrid Inheritance ஆதரிக்�
     completed: false,
   },
   {
-    id: 29,
+    id: 34,
     title: "Try Catch",
     englishDefinition: "",
     tamilDefinition: "",
@@ -3300,7 +3300,7 @@ Java-வில் Classes மூலம் Hybrid Inheritance ஆதரிக்�
     completed: false,
   },
   {
-    id: 30,
+    id: 35,
     title: "Finally",
     englishDefinition: "",
     tamilDefinition: "",
@@ -3309,7 +3309,7 @@ Java-வில் Classes மூலம் Hybrid Inheritance ஆதரிக்�
     completed: false,
   },
   {
-    id: 31,
+    id: 36,
     title: "Throw",
     englishDefinition: "",
     tamilDefinition: "",
