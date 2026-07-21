@@ -2092,18 +2092,9 @@ A Return Type specifies what type of value a method sends back to the caller. If
   locked: true,
 
   completed: false
-}
-  ,
+},
   
-  {
-    id: 22,
-    title: "Method Overloading",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+,
   {
     id: 23,
     title: "Class",
