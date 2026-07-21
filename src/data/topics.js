@@ -2284,17 +2284,8 @@ Class என்பது ஒரு Blueprint மட்டுமே. அதில
   locked: true,
 
   completed: false
-}
-  ,
-  {
-    id: 24,
-    title: "Object",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+},
+ 
   {
     id: 25,
     title: "Constructor",
