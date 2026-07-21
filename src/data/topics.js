@@ -2560,7 +2560,7 @@ public class Main{
 
   output: `Student Name : Deepak
 
-💡 Note (English)
+💡 Note 
 When an instance variable and a constructor parameter have the same name, Java gives priority to the local parameter. The this keyword is used to refer to the current object's instance variable.
 
 💡 குறிப்பு (Tamil)
