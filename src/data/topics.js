@@ -2369,7 +2369,7 @@ Department : Cyber Security
 💡 Note 
 An Object is created from a Class. A Class acts as a blueprint, while an Object is the actual instance that stores data and can access the class's variables and methods.
 
-💡 குறிப்பு (Tamil)
+💡 குறிப்பு 
 Object என்பது Class-இல் இருந்து உருவாக்கப்படுகிறது. Class என்பது Blueprint ஆகும்; Object என்பது அந்த Blueprint-இல் இருந்து உருவாக்கப்பட்ட உண்மையான Instance ஆகும். Object மூலம் Class-ன் Variables மற்றும் Methods-ஐ பயன்படுத்தலாம்.`,
 
   locked: true,
