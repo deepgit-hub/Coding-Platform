@@ -2892,7 +2892,7 @@ public class Main{
 Specialization : Cyber Security
 Research Topic : Network Security
 
-💡 Note (English)
+💡 Note 
 In Multilevel Inheritance, one class inherits from another class, which itself inherits from another class. This creates a chain of inheritance and allows the last class to access the features of all its parent classes.
 
 💡 குறிப்பு (Tamil)
