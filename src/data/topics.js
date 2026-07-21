@@ -2660,7 +2660,7 @@ public class Main{
 Age : 20
 Specialization : Cyber Security
 
-💡 Note (English)
+💡 Note 
 This example demonstrates Single Inheritance. Java also supports other inheritance types such as Multilevel and Hierarchical Inheritance. These will be discussed in the next topic.
 
 💡 குறிப்பு 
