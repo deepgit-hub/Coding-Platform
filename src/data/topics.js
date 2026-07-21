@@ -2570,7 +2570,106 @@ Instance Variable மற்றும் Constructor Parameter இரண்டி
 
   completed: false
 },
-  
+  {
+  id: 27,
+
+  title: "Inheritance",
+
+  englishDefinition:
+    "Inheritance is an Object-Oriented Programming (OOP) concept in which one class acquires the properties and methods of another class. In Java, the most basic form of inheritance is Single Inheritance, where one child class inherits from one parent class.",
+
+  tamilDefinition:
+    "Inheritance என்பது ஒரு Object-Oriented Programming (OOP) கருத்தாகும். இதில் ஒரு Class, மற்றொரு Class-ன் Properties மற்றும் Methods-ஐ பெறுகிறது. Java-வில் இதன் அடிப்படை வடிவம் Single Inheritance ஆகும். இதில் ஒரு Child Class, ஒரு Parent Class-இலிருந்து மட்டுமே Inherit செய்கிறது.",
+
+  realWorldUsage:
+    "Developers use inheritance to reuse existing code. For example, a GraduateStudent class can inherit common details such as name and age from the Student class while adding its own specialization.",
+
+  realWorldUsageTamil:
+    "ஏற்கனவே எழுதப்பட்ட Code-ஐ மீண்டும் பயன்படுத்த Developers Inheritance-ஐ பயன்படுத்துகின்றனர். உதாரணமாக, GraduateStudent Class ஆனது Student Class-ல் உள்ள name மற்றும் age போன்ற தகவல்களை பெற்றுக்கொண்டு தனது சொந்த Specialization-ஐ சேர்க்க முடியும்.",
+
+  syntax: `class ParentClass{
+
+}
+
+class ChildClass extends ParentClass{
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "ParentClass is the class whose properties and methods are inherited.",
+    "extends is the keyword used to inherit another class.",
+    "ChildClass inherits the variables and methods of ParentClass.",
+    "This is called Single Inheritance because one child class inherits from one parent class."
+  ],
+
+  syntaxExplanationTamil: [
+    "ParentClass என்பது அதன் Properties மற்றும் Methods மற்றொரு Class-க்கு வழங்கும் Class ஆகும்.",
+    "extends என்பது மற்றொரு Class-ஐ Inherit செய்ய பயன்படும் Keyword ஆகும்.",
+    "ChildClass, ParentClass-ன் Variables மற்றும் Methods-ஐ பெறுகிறது.",
+    "ஒரு Child Class, ஒரு Parent Class-இலிருந்து மட்டும் Inherit செய்வதால் இது Single Inheritance எனப்படுகிறது."
+  ],
+
+  exampleProgram: `class Student{
+
+    String name = "Deepak";
+    int age = 20;
+
+}
+
+class GraduateStudent extends Student{
+
+    String specialization = "Cyber Security";
+
+}
+
+public class Main{
+
+    public static void main(String[] args){
+
+        GraduateStudent student = new GraduateStudent();
+
+        System.out.println("Name : " + student.name);
+        System.out.println("Age : " + student.age);
+        System.out.println("Specialization : " + student.specialization);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates the Student parent class.",
+    "Lines 3-4: Declares the variables name and age.",
+    "Line 8: Creates the GraduateStudent child class using the extends keyword.",
+    "Line 10: Declares the specialization variable.",
+    "Line 18: Creates an object of GraduateStudent.",
+    "Lines 20-22: Accesses the inherited variables name and age from Student and the specialization variable from GraduateStudent.",
+    "This is an example of Single Inheritance because one child class inherits from one parent class."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Student என்ற Parent Class உருவாக்கப்படுகிறது.",
+    "வரி 3-4: name மற்றும் age என்ற Variables அறிவிக்கப்படுகின்றன.",
+    "வரி 8: extends Keyword-ஐ பயன்படுத்தி GraduateStudent என்ற Child Class உருவாக்கப்படுகிறது.",
+    "வரி 10: specialization என்ற புதிய Variable அறிவிக்கப்படுகிறது.",
+    "வரி 18: GraduateStudent Object உருவாக்கப்படுகிறது.",
+    "வரி 20-22: Student Class-ல் இருந்து பெறப்பட்ட name மற்றும் age Variables-யும், GraduateStudent-ன் specialization Variable-யும் பயன்படுத்தப்படுகின்றன.",
+    "ஒரு Child Class, ஒரு Parent Class-இலிருந்து மட்டும் Inherit செய்வதால் இது Single Inheritance ஆகும்."
+  ],
+
+  output: `Name : Deepak
+Age : 20
+Specialization : Cyber Security
+
+💡 Note (English)
+This example demonstrates Single Inheritance. Java also supports other inheritance types such as Multilevel and Hierarchical Inheritance. These will be discussed in the next topic.
+
+💡 குறிப்பு (Tamil)
+இந்த Program Single Inheritance-ஐ விளக்குகிறது. Java-வில் Multilevel மற்றும் Hierarchical Inheritance போன்ற பிற வகைகளும் உள்ளன. அவற்றைப் பற்றி அடுத்த Topic-ல் பார்க்கலாம்.`,
+
+  locked: true,
+
+  completed: false
+},
   {
     id: 28,
     title: "Exception Handling",
