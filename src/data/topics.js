@@ -2570,15 +2570,7 @@ Instance Variable மற்றும் Constructor Parameter இரண்டி
 
   completed: false
 },
-  {
-    id: 27,
-    title: "Inheritance",
-    englishDefinition: "",
-    tamilDefinition: "",
-    realWorldUsage: "",
-    locked: true,
-    completed: false,
-  },
+  
   {
     id: 28,
     title: "Exception Handling",
