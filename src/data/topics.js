@@ -2902,7 +2902,131 @@ Multilevel Inheritance-ல் ஒரு Class மற்றொரு Class-இல
 
   completed: false
 },
+{
+  id: 30,
 
+  title: "Hierarchical Inheritance",
+
+  englishDefinition:
+    "Hierarchical Inheritance is a type of inheritance in which multiple child classes inherit the properties and methods of a single parent class.",
+
+  tamilDefinition:
+    "Hierarchical Inheritance என்பது ஒரு Parent Class-இலிருந்து பல Child Classes Properties மற்றும் Methods-ஐ பெறும் Inheritance வகையாகும்.",
+
+  realWorldUsage:
+    "Developers use Hierarchical Inheritance when multiple classes share common features from a single parent class. For example, GraduateStudent and UndergraduateStudent can both inherit common student details from the Student class.",
+
+  realWorldUsageTamil:
+    "பல Classes ஒரே Parent Class-ன் பொதுவான அம்சங்களை (Common Features) பயன்படுத்த வேண்டிய சூழலில் Developers Hierarchical Inheritance-ஐ பயன்படுத்துகின்றனர். உதாரணமாக, GraduateStudent மற்றும் UndergraduateStudent ஆகிய இரண்டும் Student Class-இலிருந்து பொதுவான தகவல்களை பெறுகின்றன.",
+
+  syntax: `class ParentClass{
+
+}
+
+class ChildClass1 extends ParentClass{
+
+}
+
+class ChildClass2 extends ParentClass{
+
+}`,
+
+  syntaxExplanationEnglish: [
+    "ParentClass is the common base class.",
+    "ChildClass1 inherits the properties and methods of ParentClass.",
+    "ChildClass2 also inherits the properties and methods of ParentClass.",
+    "Multiple child classes inherit from the same parent class."
+  ],
+
+  syntaxExplanationTamil: [
+    "ParentClass என்பது பொதுவான (Common) Base Class ஆகும்.",
+    "ChildClass1, ParentClass-ன் Properties மற்றும் Methods-ஐ பெறுகிறது.",
+    "ChildClass2-மும் ParentClass-ன் Properties மற்றும் Methods-ஐ பெறுகிறது.",
+    "பல Child Classes ஒரே Parent Class-இலிருந்து Inherit செய்வதால் இது Hierarchical Inheritance எனப்படுகிறது."
+  ],
+
+  exampleProgram: `class Student{
+
+    String name = "Deepak";
+
+}
+
+class GraduateStudent extends Student{
+
+    String specialization = "Cyber Security";
+
+}
+
+class UndergraduateStudent extends Student{
+
+    int semester = 3;
+
+}
+
+public class Main{
+
+    public static void main(String[] args){
+
+        GraduateStudent graduate = new GraduateStudent();
+
+        UndergraduateStudent undergraduate = new UndergraduateStudent();
+
+        System.out.println("Graduate Student");
+        System.out.println("Name : " + graduate.name);
+        System.out.println("Specialization : " + graduate.specialization);
+
+        System.out.println();
+
+        System.out.println("Undergraduate Student");
+        System.out.println("Name : " + undergraduate.name);
+        System.out.println("Semester : " + undergraduate.semester);
+
+    }
+
+}`,
+
+  programExplanationEnglish: [
+    "Line 1: Creates the Student parent class.",
+    "Line 3: Declares the name variable.",
+    "Line 7: Creates the GraduateStudent child class.",
+    "Line 9: Declares the specialization variable.",
+    "Line 13: Creates the UndergraduateStudent child class.",
+    "Line 15: Declares the semester variable.",
+    "Lines 23-25: Creates objects for both child classes.",
+    "Lines 27-34: Displays the inherited name variable along with each child class's own variable.",
+    "Both child classes inherit the common features of the Student class."
+  ],
+
+  programExplanationTamil: [
+    "வரி 1: Student என்ற Parent Class உருவாக்கப்படுகிறது.",
+    "வரி 3: name என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 7: GraduateStudent என்ற Child Class உருவாக்கப்படுகிறது.",
+    "வரி 9: specialization என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 13: UndergraduateStudent என்ற Child Class உருவாக்கப்படுகிறது.",
+    "வரி 15: semester என்ற Variable அறிவிக்கப்படுகிறது.",
+    "வரி 23-25: இரண்டு Child Classes-க்கும் Objects உருவாக்கப்படுகின்றன.",
+    "வரி 27-34: Parent Class-ல் இருந்து பெறப்பட்ட name Variable மற்றும் ஒவ்வொரு Child Class-ன் தனிப்பட்ட Variable-களும் காட்டப்படுகின்றன.",
+    "இரண்டு Child Classes-மும் Student Class-ன் பொதுவான அம்சங்களை பயன்படுத்துகின்றன."
+  ],
+
+  output: `Graduate Student
+Name : Deepak
+Specialization : Cyber Security
+
+Undergraduate Student
+Name : Deepak
+Semester : 3
+
+💡 Note (English)
+In Hierarchical Inheritance, multiple child classes inherit the properties and methods of the same parent class. Each child class can also have its own unique variables and methods.
+
+💡 குறிப்பு (Tamil)
+Hierarchical Inheritance-ல் பல Child Classes ஒரே Parent Class-இலிருந்து Properties மற்றும் Methods-ஐ பெறுகின்றன. ஒவ்வொரு Child Class-மும் தனது சொந்த Variables மற்றும் Methods-ஐ கூட கொண்டிருக்கலாம்.`,
+
+  locked: true,
+
+  completed: false
+},
 
 
 
