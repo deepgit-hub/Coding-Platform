@@ -2184,7 +2184,7 @@ returnType methodName(parameter1, parameter2){
   output: `Total Marks (2 Subjects) : 175
 Total Marks (3 Subjects) : 253
 
-💡 Note (English)
+💡 Note 
 Method Overloading allows multiple methods to have the same name as long as their parameter lists are different. It improves code readability and reusability.
 
 💡 குறிப்பு (Tamil)
