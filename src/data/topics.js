@@ -2275,7 +2275,7 @@ public class Main{
 
   output: `Student Class Created Successfully
 
-💡 Note (English)
+💡 Note 
 A Class is only a blueprint. It does not occupy memory for its variables until an object is created. Objects are created from a class.
 
 💡 குறிப்பு (Tamil)
